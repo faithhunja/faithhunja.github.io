@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - faithhunja
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - osl-pocs/fqlearn
+  - osl-incubator/anamnesis.ai
+  - owos/afri_augs
+  - microsoft/IoT-For-Beginners
+  - faithhunja/Tekelek-Ultrasonic-LoRaWAN-Level-Sensor
