@@ -2,7 +2,7 @@
 layout: page
 permalink: /experience/
 title: experience
-description: TL;DR of my work and research experience.
+description: TL;DR of my study, work and research experience.
 nav: true
 nav_order: 6
 ---
