@@ -11,7 +11,7 @@ nav_order: 3
 - Software developer intern at Open Science Labs/The
 GRAPH Network (Feb 2024 - Present)
 - Research collaborator in ML for healthcare and NLP at SisonkeBiotik and ML Collective (Sept 2022 - Present)
-- Impact scholar, research student on computational tools for climate science at Climatematch Academy (Jul 2023 - Jan 2024)
+- Impact scholar, research student in computational tools for climate science at Climatematch Academy (Jul 2023 - Jan 2024)
 - Sakura Science exchange student at Tokyo City University's Advanced Control Systems Lab (Oct 2022)  ([Certificate](https://drive.google.com/file/d/1beFyOtoibYtU5rF_NfTf79YncPfjbSvH/view?usp=sharing)) 
 - Research fellow in geometry processing at the Massachusetts Institute of Technology's Summer Geometry Institute (Jul – Aug 2021)
 - Technical Leadership Program participant at Carnegie Mellon University's Visual Intelligence Studio lab ([Certificate](https://drive.google.com/file/d/1s-xkaC8kYttWQbf2LQoSUB-a9emcN8g9/view?usp=sharing)) (Jul – Aug 2021)
