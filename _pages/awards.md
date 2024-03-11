@@ -2,14 +2,14 @@
 layout: page
 permalink: /awards/
 title: awards
-description: A list of my scholarships and hackathon awards.
+description: A list of scholarships awarded and hackathons won.
 nav: true
 nav_order: 4
 ---
 
 ### scholarships
 - <span style="color:#0076df;">Nordic Probabilistic AI 2023</span>: fully-funded scholarship to attend the summer school in Trondheim, Norway
-- <span style="color:#0076df;">Sakura Science Exchange program 2022</span>: One of 10 students selected from JKUAT, fully sponsored by the Japan Science and Technology Agency (JST) ([Certificate](https://drive.google.com/file/d/1beFyOtoibYtU5rF_NfTf79YncPfjbSvH/view?usp=drive_link))
+- <span style="color:#0076df;">Sakura Science Exchange program 2022</span>: One of 10 students selected from JKUAT, fully sponsored by the Japan Science and Technology Agency ([Certificate](https://drive.google.com/file/d/1beFyOtoibYtU5rF_NfTf79YncPfjbSvH/view?usp=drive_link))
 - <span style="color:#0076df;">Ethereum Foundation Devcon V 2019</span>: One of 50 recipients worldwide selected for a fully-funded scholarship to attend the conference in Osaka, Japan ([Certificate](https://drive.google.com/file/d/1KPMwzv38DcBdLyJQJ_r53Ryt76my1o3j/view?usp=sharing))
 
 ### hackathons

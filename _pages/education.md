@@ -2,7 +2,7 @@
 layout: page
 permalink: /education/
 title: education
-description: Summary of my studies, summer schools and online courses.
+description: A summary of my studies.
 nav: true
 nav_order: 7
 ---
