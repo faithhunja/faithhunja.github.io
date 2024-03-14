@@ -22,6 +22,7 @@ nav_order: 7
 
 
 ### other courses
+- Watersheds.Online: [Global Precipitation Measurement Mission (GPM) Mentorship program 2024](https://www.watersheds.online/gpm-mentorship-2024) - in progress
 - Fast.ai: [Practical Deep Learning for Coders, Part 1](https://course.fast.ai/) - in progress
 - NVIDIA DLI: Deep Learning for Autonomous Vehicles - Perception ([Certificate](https://courses.nvidia.com/certificates/1fcefea6860e47418e74248154cbf1c5))
 - NVIDIA DLI: Getting Started with DeepStream for Video Analytics on Jetson Nano ([Certificate](https://courses.nvidia.com/certificates/649c82d4c2414662a943b9cd68ba5f3f))
