@@ -25,7 +25,7 @@ GRAPH Network (Feb 2024 - Present)
 
 ### extra-curricular
 - [Openverse 2024 hackathon](https://openverse24.devpost.com/) co-organizer (Feb - March 2024)
-- Beta Microsoft Learn Student Ambassador (Aug 2020 - Jun 2023) ([Certificate]((https://drive.google.com/file/d/1QSyQXBWv1iFGJ0uvXuzA6zY4rbsDK6Et/view?usp=sharing)))
+- Beta Microsoft Learn Student Ambassador (Aug 2020 - Jun 2023) ([Certificate](https://drive.google.com/file/d/1QSyQXBWv1iFGJ0uvXuzA6zY4rbsDK6Et/view?usp=sharing))
 - Gold Autodesk Ambassador (Mar 2019 - Jun 2023)
 - AISTATS 2021 conference student volunteer ([Certificate](https://drive.google.com/file/d/10Ut2KDH0laJC3EkxXaBa3rAbc0hXSWGK/view?usp=sharing))
 - UTRGV CS Undergraduate Research Workshop 2021 attendee (17% acceptance rate)
