@@ -12,7 +12,7 @@ nav_order: 3
 GRAPH Network (Feb 2024 - Present)
 - <span style="color:#0076df;">Researcher</span> in ML for healthcare and NLP at SisonkeBiotik and ML Collective (Sept 2022 - Present)
 - <span style="color:#0076df;">Impact scholar, research student</span> in computational tools for climate science at Climatematch Academy (Jul 2023 - Jan 2024)
-- <span style="color:#0076df;">Sakura Science exchange student</span> at Tokyo City University's Advanced Control Systems Lab (Oct 2022)  ([Certificate](https://drive.google.com/file/d/1beFyOtoibYtU5rF_NfTf79YncPfjbSvH/view?usp=sharing)) ([Project slides](https://docs.google.com/presentation/u/0/d/16vXem3u9ALhnsKBx8YZVZleu-DBJgQBa4F-c1GQZbn0/edit)) ([Video presentation](https://youtu.be/CqNXNicfxcQ)) 
+- <span style="color:#0076df;">Sakura Science exchange student</span> at Tokyo City University's Advanced Control Systems Lab (Oct 2022) ([Project slides](https://docs.google.com/presentation/u/0/d/16vXem3u9ALhnsKBx8YZVZleu-DBJgQBa4F-c1GQZbn0/edit)) ([Video presentation](https://youtu.be/CqNXNicfxcQ)) 
 - <span style="color:#0076df;">Research fellow</span> in geometry processing at the Massachusetts Institute of Technology's Summer Geometry Institute (Jul – Aug 2021)
 - <span style="color:#0076df;">Technical Leadership Program participant</span> at Carnegie Mellon University's Visual Intelligence Studio lab ([Certificate](https://drive.google.com/file/d/1s-xkaC8kYttWQbf2LQoSUB-a9emcN8g9/view?usp=sharing)) (Jul – Aug 2021)
 

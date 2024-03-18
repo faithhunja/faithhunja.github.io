@@ -123,8 +123,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: knight flower # blog_name will be displayed in your blog page
-# blog_description: musings of an aspiring machine learning research scientist
-blog_description: Updating soon!
+blog_description: musings of an aspiring ML research scientist
+# blog_description: Updating soon!
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -157,9 +157,9 @@ giscus:
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@faithhunja/feed
+# external_sources:
+#   - name: medium.com
+    # rss_url: https://medium.com/@faithhunja/feed
 
 # -----------------------------------------------------------------------------
 # Collections

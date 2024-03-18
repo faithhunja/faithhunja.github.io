@@ -11,6 +11,8 @@ nav_order: 2
 <ol style="list-style-type: decimal">
 <li><span style="color:#0076df; font-weight:bold;">Observing ECCO Model vs Tidal Gauges around Hurricane Maria</span> <em>(Under review)</em>
 <p>Authors: Franck Porteous, Hannah Krohn, <span style="color:#0076df;">Faith Hunja</span></p></li>
-<li><span style="color:#0076df; font-weight:bold;">Empowering Africa’s Medical Imaging Research and Practice</span> <em>(Under review)</em>
+<li><span style="color:#0076df; font-weight:bold;">Empowering Africa’s Medical
+Imaging Research and Practice Through Data
+Sharing and Governance</span> <em>(Under review)</em>
 <p>Authors: Lukman Ismaila, Houcemeddine Turki, Mohamed Frikha, Taliya Weinstein, <span style="color:#0076df;">Faith Hunja</span>, Chris Fourie, Steve Adeshina</p></li>
 </ol>
