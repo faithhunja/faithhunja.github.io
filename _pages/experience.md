@@ -4,7 +4,7 @@ permalink: /experience/
 title: experience
 description: A summary of my research & work experience and extra-curricular involvements.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 ### research experience

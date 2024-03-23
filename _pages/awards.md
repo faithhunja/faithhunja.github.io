@@ -4,7 +4,7 @@ permalink: /awards/
 title: awards
 description: A list of scholarships awarded and hackathons won.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 ### scholarships

@@ -2,8 +2,9 @@
 layout: default
 permalink: /blog/
 title: blog
+description: My musings, experiences and learnings.
 nav: true
-nav_order: 5
+nav_order: 3
 pagination:
   enabled: true
   collection: posts
@@ -18,7 +19,7 @@ pagination:
 
 <div class="post">
 
-{% assign blog_name_size = site.blog_name | size %}
+<!-- {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
@@ -27,7 +28,11 @@ pagination:
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
-  {% endif %}
+  {% endif %} -->
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
 
 {% if site.display_tags or site.display_categories %}
 
