@@ -7,26 +7,184 @@ nav: true
 nav_order: 4
 ---
 
-### research experience
-- <span style="color:#0076df;">Software developer intern</span> at Open Science Labs/The
-GRAPH Network (Feb 2024 - Present)
-- <span style="color:#0076df;">Researcher</span> in ML for healthcare and NLP at SisonkeBiotik and ML Collective (Sept 2022 - Present)
-- <span style="color:#0076df;">Impact scholar, research student</span> in computational tools for climate science at Climatematch Academy (Jul 2023 - Jan 2024)
-- <span style="color:#0076df;">Sakura Science exchange student</span> at Tokyo City University's Advanced Control Systems Lab (Oct 2022) ([Project slides](https://docs.google.com/presentation/u/0/d/16vXem3u9ALhnsKBx8YZVZleu-DBJgQBa4F-c1GQZbn0/edit)) ([Video presentation](https://youtu.be/CqNXNicfxcQ)) 
-- <span style="color:#0076df;">Research fellow</span> in geometry processing at the Massachusetts Institute of Technology's Summer Geometry Institute (Jul – Aug 2021)
-- <span style="color:#0076df;">Technical Leadership Program participant</span> at Carnegie Mellon University's Visual Intelligence Studio lab (Jul – Aug 2021) ([Certificate](https://drive.google.com/file/d/1s-xkaC8kYttWQbf2LQoSUB-a9emcN8g9/view?usp=sharing)) 
+<style>
+/* .styled-company {
+    color: #0076df;
+} */
 
-### work experience
-- <span style="color:#0076df;">Embedded systems engineering graduate trainee, hardware engineering intern</span> at Geviton (Mar 2022 - Aug 2023)
-- <span style="color:#0076df;">Mechatronics engineering intern, youth robotics coordinator</span> at Kenya Flying Labs (Mar - Dec 2021)
-    - Microdrone Certified Instructor ([Certificate](https://drive.google.com/file/d/1BuKy3S77jTEzzIMgzc49ReXYDCnpv5iL/view))
-- <span style="color:#0076df;">Autodesk community consultant, project team lead, mechatronics engineer</span> at Moon Innovations (Jan 2020 - Dec 2021) ([Project slides](https://docs.google.com/presentation/d/1KrTVAxAbcux1UlYf01tTnq29lDOVFfjCGHu3sFKktZw/edit?usp=sharing))
-- <span style="color:#0076df;">Internet of Things (IoT) engineering intern</span> at Upande (Jul - Oct 2019)
+/* Define a class for the styled span */
+.styled-role {
+    color: #0076df;
+}
 
-### extra-curricular
-- [Openverse 2024 hackathon](https://openverse24.devpost.com/) co-organizer (Feb - March 2024)
-- Beta Microsoft Learn Student Ambassador (Aug 2020 - Jun 2023) ([Certificate](https://drive.google.com/file/d/1QSyQXBWv1iFGJ0uvXuzA6zY4rbsDK6Et/view?usp=sharing))
-- Gold Autodesk Ambassador (Mar 2019 - Jun 2023)
-- AISTATS 2021 conference student volunteer ([Certificate](https://drive.google.com/file/d/10Ut2KDH0laJC3EkxXaBa3rAbc0hXSWGK/view?usp=sharing))
-- UTRGV CS Undergraduate Research Workshop 2021 attendee (17% acceptance rate)
-- Microsoft Africa Development Centre Game of Learners 2020 program participant ([Badge](https://www.credly.com/badges/362e721e-4b9a-41a8-adc2-2272dfedb5d4))
+/* Define a class for the styled image */
+.styled-img {
+    float: center;
+    object-fit: contain;
+    max-width: 200px;
+    height: auto;
+    max-height: 100px;
+}
+
+/* For mobile phone view */
+  @media screen and (max-width: 768px) { 
+    .styled-img {
+      width: 60px;
+      height: auto;
+    }
+  }
+</style>
+
+<table>
+
+<tr>
+<td><h3>research experience</h3></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Software developer intern</span> (Feb 2024 - Present)
+<ul>
+  <li>Developing a Python library for assisting in teaching mass transfer and thermodynamics 
+  (<a href="https://github.com/osl-pocs/fqlearn">GitHub</a>)</li>
+</ul></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/OSL.png" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Researcher</span> (Jan 2024 - Present)
+<ul>
+  <li>Research collaborator in natural language processing</li>
+</ul>
+</td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/MLC.png" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Researcher</span> (Sept 2022 - Present)
+<ul>
+  <li>Research collaborator in machine learning for healthcare</li>
+</ul>
+</td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/SisonkeBiotik.png" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Climatematch impact scholar</span> (Oct 2023 - Jan 2024)
+<ul>
+  <li>Took part in a mentored research program to compare the reliability of sea surface height data from the ECCO model and tidal gauge data under the influence of extreme weather events
+  (<a href="https://github.com/FranckPrts/CMA_2023_Project">GitHub</a>)</li>
+</ul></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/Climatematch academy logo.jpeg" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Sakura Science exchange student</span> (Oct 2022)
+<ul>
+  <li>Mapped university building floors using LiDAR to generate point cloud maps, and compared them to actual floor plans to assess the accuracy
+  (<a href="https://docs.google.com/presentation/u/0/d/16vXem3u9ALhnsKBx8YZVZleu-DBJgQBa4F-c1GQZbn0/edit">Project slides</a>) 
+  (<a href="https://youtu.be/CqNXNicfxcQ">Video presentation</a>)</li>
+</ul></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/TCU.jpg" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Research fellow</span> (Jul – Aug 2021)
+<ul>
+  <li>Explored a hierarchical structure for efficient multigrid solving on general meshes</li>
+  <li>Conducted geometric modeling for isogeometric analysis in engineering applications</li>
+  <li>Developed an unsupervised partial symmetry detection model for 3D models using geometric deep learning</li>
+</ul></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/MIT.png" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Technical Leadership Program participant</span> (Jul – Aug 2021)
+<ul>
+  <li>Received STEM training focusing on real-world problem-solving, fast learning, and teamwork</li>
+  <li>Designed the power module for a mobile workstation intended for deployment in emergency services
+  (<a href="https://drive.google.com/file/d/1s-xkaC8kYttWQbf2LQoSUB-a9emcN8g9/view?usp=sharing">Certificate</a>)</li>
+</ul></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/CMU.jpg" /></td>
+</tr>
+
+</table>
+
+<table>
+
+<tr>
+<td><h3>work experience</h3></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Embedded software engineering graduate trainee</span> (Feb - Aug 2023)
+<ul><li>Designed and programmed a land beacon prototype equipped with vibration sensing to monitor activity and send alerts, featuring additional functionalities such as GPS, orientation, tilt, and touch-sensing</li></ul>
+<span class="styled-role">Hardware engineering intern</span> (Mar 2022 - Feb 2023)
+<ul>
+<li>Designed a prototype tracking device for domestic animals capable of determining location, temperature, and orientation, and transmitting this data to a LoRa gateway</li>
+<li>Designed, programmed, prototyped, validated, tested, and performed PCB assembly for various engineering applications</li>
+<li>Worked on PCB post-production processes, including circuit board reflow, soldering, and final testing, as well as test documentation</li>
+</ul></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/Geviton.png" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Mechatronics engineering intern, youth robotics coordinator</span> (Mar - Dec 2021)
+<ul>
+<li>Certified as a Microdrone Instructor
+(<a href="https://drive.google.com/file/d/1BuKy3S77jTEzzIMgzc49ReXYDCnpv5iL/view">Certificate</a>)</li>
+<li>Provided training to children on manual and coded flights using Tello drones, as well as on Arduino programming at the Think Young coding summer school
+(<a href="https://blog.werobotics.org/2022/03/08/fly-for-the-future-project-takes-flight-in-senegal-kenya/">Featured</a>)
+(<a href="https://flyinglabs.org/portfolio/10th-edition-coding-summer-school-with-arduino/">Featured</a>)</li>
+<li>Conducted research on materials for airship design, assessing their availability and cost</li>
+</ul>
+</td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/Kenya Flying Labs.png" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Founding engineer</span> (Jul 2020 - Dec 2021)<br>
+<span class="styled-role">Autodesk community consultant, project team lead</span> (Jan - May 2020)
+<ul>
+<li>Lead the 'Design and manufacturability of smart home inverters' project during the Autodesk pro bono pilot program</li>
+<li>Designed schematics, PCB layouts, and 3D models for a solar inverter system
+(<a href="https://docs.google.com/presentation/d/1KrTVAxAbcux1UlYf01tTnq29lDOVFfjCGHu3sFKktZw/edit?usp=sharing">Project slides</a>)</li>
+</ul>
+</td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/Moon Innovations.jpeg" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Internet of Things (IoT) engineering intern</span> (Jul - Oct 2019)
+<ul>
+<li>Established communication with various sensors using LoRa, MQTT, Node-RED, and IFTTT</li> 
+<li>Set up gateways to monitor sensor data on The Things Network (TTN) and decoded payloads</li> 
+<li>Learnt MicroPython programming and circuit building with the ESP32 NodeMCU</li>
+</ul>
+</td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/Upande.png" /></td>
+</tr>
+
+</table>
+
+<table>
+
+<tr>
+<td><h3>extra-curricular</h3></td>
+</tr>
+
+<tr><td>
+<ul>
+  <li>Openverse 2024 hackathon co-organizer (Feb - March 2024)
+  (<a href="https://openverse24.devpost.com/">Devpost</a>)</li>
+  <li>Beta Microsoft Learn Student Ambassador (Aug 2020 - Jun 2023)
+  (<a href="https://drive.google.com/file/d/1QSyQXBWv1iFGJ0uvXuzA6zY4rbsDK6Et/view?usp=sharing">Certificate</a>)</li>
+  <li>Gold Autodesk Ambassador (Mar 2019 - Jun 2023)</li>
+  <li>AISTATS 2021 conference student volunteer
+  (<a href="https://drive.google.com/file/d/10Ut2KDH0laJC3EkxXaBa3rAbc0hXSWGK/view?usp=sharing">Certificate</a>)</li>
+  <li>UTRGV CS Undergraduate Research Workshop 2021 attendee (17% acceptance rate)</li>
+  <li>Microsoft Africa Development Centre Game of Learners 2020 program participant
+  (<a href="https://www.credly.com/badges/362e721e-4b9a-41a8-adc2-2272dfedb5d4">Badge</a>)</li>
+</ul>
+</td></tr>
+
+</table>

@@ -16,9 +16,19 @@ nav_order: 5
 /* Define a class for the styled image */
 .styled-img {
     float: center;
+    object-fit: contain;
     max-width: 200px;
+    height: auto;
     max-height: 100px;
 }
+
+/* For mobile phone view */
+  @media screen and (max-width: 768px) { 
+    .styled-img {
+      width: 60px;
+      height: auto;
+    }
+  }
 </style>
 
 <table>
