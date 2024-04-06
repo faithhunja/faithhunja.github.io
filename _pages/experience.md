@@ -42,12 +42,21 @@ nav_order: 4
 </tr>
 
 <tr>
+<td><span class="styled-role">Mentee</span> (Apr 2024 - Present)
+<ul>
+  <li>Selected to participate in a mentored capstone project as part of the Global Precipitation Measurement (GPM) mentorship program, investigating the precipitation climatology over Lake Victoria  
+  </li>
+</ul></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/NASA.png" /></td>
+</tr>
+
+<tr>
 <td><span class="styled-role">Software developer intern</span> (Feb 2024 - Present)
 <ul>
   <li>Developing a Python library for assisting in teaching mass transfer and thermodynamics 
   (<a href="https://github.com/osl-pocs/fqlearn">GitHub</a>)</li>
 </ul></td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/OSL.png" /></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/OSL.png" /></td>
 </tr>
 
 <tr>
@@ -56,16 +65,17 @@ nav_order: 4
   <li>Research collaborator in natural language processing</li>
 </ul>
 </td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/MLC.png" /></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/MLC.png" /></td>
 </tr>
 
 <tr>
 <td><span class="styled-role">Researcher</span> (Sept 2022 - Present)
 <ul>
   <li>Research collaborator in machine learning for healthcare</li>
+  <li>Vice chair of the 'NLP for Health' Special Interest Group</li>
 </ul>
 </td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/SisonkeBiotik.png" /></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/SisonkeBiotik.png" /></td>
 </tr>
 
 <tr>
@@ -74,7 +84,7 @@ nav_order: 4
   <li>Took part in a mentored research program to compare the reliability of sea surface height data from the ECCO model and tidal gauge data under the influence of extreme weather events
   (<a href="https://github.com/FranckPrts/CMA_2023_Project">GitHub</a>)</li>
 </ul></td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/Climatematch academy logo.jpeg" /></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/CMA.png" /></td>
 </tr>
 
 <tr>
@@ -84,17 +94,16 @@ nav_order: 4
   (<a href="https://docs.google.com/presentation/u/0/d/16vXem3u9ALhnsKBx8YZVZleu-DBJgQBa4F-c1GQZbn0/edit">Project slides</a>) 
   (<a href="https://youtu.be/CqNXNicfxcQ">Video presentation</a>)</li>
 </ul></td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/TCU.jpg" /></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/TCU.jpg" /></td>
 </tr>
 
 <tr>
 <td><span class="styled-role">Research fellow</span> (Jul – Aug 2021)
 <ul>
-  <li>Explored a hierarchical structure for efficient multigrid solving on general meshes</li>
-  <li>Conducted geometric modeling for isogeometric analysis in engineering applications</li>
+  <li>Explored a hierarchical structure for efficient multigrid solving on meshes, and geometric modeling for isogeometric analysis in engineering</li>
   <li>Developed an unsupervised partial symmetry detection model for 3D models using geometric deep learning</li>
 </ul></td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/MIT.png" /></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/MIT.png" /></td>
 </tr>
 
 <tr>
@@ -104,7 +113,7 @@ nav_order: 4
   <li>Designed the power module for a mobile workstation intended for deployment in emergency services
   (<a href="https://drive.google.com/file/d/1s-xkaC8kYttWQbf2LQoSUB-a9emcN8g9/view?usp=sharing">Certificate</a>)</li>
 </ul></td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/CMU.jpg" /></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/CMU.jpg" /></td>
 </tr>
 
 </table>
@@ -118,50 +127,55 @@ nav_order: 4
 <tr>
 <td><span class="styled-role">Embedded software engineering graduate trainee</span> (Feb - Aug 2023)
 <ul><li>Designed and programmed a land beacon prototype equipped with vibration sensing to monitor activity and send alerts, featuring additional functionalities such as GPS, orientation, tilt, and touch-sensing</li></ul>
-<span class="styled-role">Hardware engineering intern</span> (Mar 2022 - Feb 2023)
+</td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/Geviton.png" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Hardware engineering intern</span> (Mar 2022 - Jan 2023)
 <ul>
-<li>Designed a prototype tracking device for domestic animals capable of determining location, temperature, and orientation, and transmitting this data to a LoRa gateway</li>
-<li>Designed, programmed, prototyped, validated, tested, and performed PCB assembly for various engineering applications</li>
-<li>Worked on PCB post-production processes, including circuit board reflow, soldering, and final testing, as well as test documentation</li>
+  <li>Designed a prototype tracking device for domestic animals capable of determining location, temperature, and orientation, and transmitting this data to a LoRa gateway</li>
+  <li>Designed, programmed, prototyped, validated, tested, and performed PCB assembly for various engineering applications</li>
+  <li>Worked on PCB post-production processes, including circuit board reflow, soldering, and final testing, as well as test documentation</li>
 </ul></td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/Geviton.png" /></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/Geviton.png" /></td>
 </tr>
 
 <tr>
 <td><span class="styled-role">Mechatronics engineering intern, youth robotics coordinator</span> (Mar - Dec 2021)
 <ul>
-<li>Certified as a Microdrone Instructor
-(<a href="https://drive.google.com/file/d/1BuKy3S77jTEzzIMgzc49ReXYDCnpv5iL/view">Certificate</a>)</li>
-<li>Provided training to children on manual and coded flights using Tello drones, as well as on Arduino programming at the Think Young coding summer school
-(<a href="https://blog.werobotics.org/2022/03/08/fly-for-the-future-project-takes-flight-in-senegal-kenya/">Featured</a>)
-(<a href="https://flyinglabs.org/portfolio/10th-edition-coding-summer-school-with-arduino/">Featured</a>)</li>
-<li>Conducted research on materials for airship design, assessing their availability and cost</li>
+  <li>Certified as a Microdrone Instructor
+  (<a href="https://drive.google.com/file/d/1BuKy3S77jTEzzIMgzc49ReXYDCnpv5iL/view">Certificate</a>)</li>
+  <li>Provided training to children on manual and coded flights using Tello drones, and on Arduino programming
+  (<a href="https://blog.werobotics.org/2022/03/08/fly-for-the-future-project-takes-flight-in-senegal-kenya/">Featured</a>)
+  (<a href="https://flyinglabs.org/portfolio/10th-edition-coding-summer-school-with-arduino/">Featured</a>)</li>
+  <li>Conducted research on materials for airship design, assessing their availability and cost</li>
 </ul>
 </td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/Kenya Flying Labs.png" /></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/Kenya Flying Labs.png" /></td>
 </tr>
 
 <tr>
-<td><span class="styled-role">Founding engineer</span> (Jul 2020 - Dec 2021)<br>
+<td><span class="styled-role">Founding engineer</span> (Jun 2020 - Dec 2021)<br>
 <span class="styled-role">Autodesk community consultant, project team lead</span> (Jan - May 2020)
 <ul>
-<li>Lead the 'Design and manufacturability of smart home inverters' project during the Autodesk pro bono pilot program</li>
-<li>Designed schematics, PCB layouts, and 3D models for a solar inverter system
-(<a href="https://docs.google.com/presentation/d/1KrTVAxAbcux1UlYf01tTnq29lDOVFfjCGHu3sFKktZw/edit?usp=sharing">Project slides</a>)</li>
+  <li>Lead the 'Design and manufacturability of smart home inverters' project during the Autodesk pro bono pilot program
+  (<a href="https://docs.google.com/presentation/d/1KrTVAxAbcux1UlYf01tTnq29lDOVFfjCGHu3sFKktZw/edit?usp=sharing">Project slides</a>)</li>
+  <li>Designed schematics, PCBs, and 3D models for a solar inverter system</li>
 </ul>
 </td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/Moon Innovations.jpeg" /></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/Moon Innovations.jpeg" /></td>
 </tr>
 
 <tr>
 <td><span class="styled-role">Internet of Things (IoT) engineering intern</span> (Jul - Oct 2019)
 <ul>
-<li>Established communication with various sensors using LoRa, MQTT, Node-RED, and IFTTT</li> 
-<li>Set up gateways to monitor sensor data on The Things Network (TTN) and decoded payloads</li> 
-<li>Learnt MicroPython programming and circuit building with the ESP32 NodeMCU</li>
+  <li>Established communication with various sensors using LoRa, MQTT, Node-RED, and IFTTT</li> 
+  <li>Set up gateways to monitor sensor data on The Things Network and decoded sensor payloads</li> 
+  <li>Learnt MicroPython programming and circuit building with the ESP32</li>
 </ul>
 </td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/Upande.png" /></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/Upande.png" /></td>
 </tr>
 
 </table>

@@ -8,7 +8,8 @@ nav_order: 7
 ---
 
 ### university
-- <span style="color:#0076df;">Bachelor of Science in Mechatronics Engineering</span> - Jomo Kenyatta University of Agriculture and Technology (Graduated in June 2023)            	                                                                  
+- <span style="color:#0076df;">Bachelor of Science in Mechatronics Engineering</span><br>
+Jomo Kenyatta University of Agriculture and Technology (2023)           	                                                                  
 
 ### summer schools
 - Neuromatch Academy - Computational Neuroscience ([Certificate](https://portal.neuromatchacademy.org/certificate/0df3b00d-9700-44f9-bf76-70e81e8053bc))                                
