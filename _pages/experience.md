@@ -51,15 +51,6 @@ nav_order: 4
 </tr>
 
 <tr>
-<td><span class="styled-role">Software developer intern</span> (Feb 2024 - Present)
-<ul>
-  <li>Developing a Python library for assisting in teaching mass transfer and thermodynamics 
-  (<a href="https://github.com/osl-pocs/fqlearn">GitHub</a>)</li>
-</ul></td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/OSL.png" /></td>
-</tr>
-
-<tr>
 <td><span class="styled-role">Researcher</span> (Jan 2024 - Present)
 <ul>
   <li>Research collaborator in natural language processing</li>
@@ -88,7 +79,7 @@ nav_order: 4
 </tr>
 
 <tr>
-<td><span class="styled-role">Sakura Science exchange student</span> (Oct 2022)
+<td><span class="styled-role">Sakura Science exchange student - Advanced Control Systems Lab</span> (Oct 2022)
 <ul>
   <li>Mapped university building floors using LiDAR to generate point cloud maps, and compared them to actual floor plans to assess the accuracy
   (<a href="https://docs.google.com/presentation/u/0/d/16vXem3u9ALhnsKBx8YZVZleu-DBJgQBa4F-c1GQZbn0/edit">Project slides</a>) 
@@ -98,7 +89,7 @@ nav_order: 4
 </tr>
 
 <tr>
-<td><span class="styled-role">Research fellow</span> (Jul – Aug 2021)
+<td><span class="styled-role">Research fellow - Summer Geometry Institute</span> (Jul – Aug 2021)
 <ul>
   <li>Explored a hierarchical structure for efficient multigrid solving on meshes, and geometric modeling for isogeometric analysis in engineering</li>
   <li>Developed an unsupervised partial symmetry detection model for 3D models using geometric deep learning</li>
@@ -107,7 +98,7 @@ nav_order: 4
 </tr>
 
 <tr>
-<td><span class="styled-role">Technical Leadership Program participant</span> (Jul – Aug 2021)
+<td><span class="styled-role">Technical Leadership Program participant - VIS lab</span> (Jul – Aug 2021)
 <ul>
   <li>Received STEM training focusing on real-world problem-solving, fast learning, and teamwork</li>
   <li>Designed the power module for a mobile workstation intended for deployment in emergency services
@@ -122,6 +113,22 @@ nav_order: 4
 
 <tr>
 <td><h3>work experience</h3></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Chief data officer</span> (Apr 2024 - Present)
+<ul><li>Defining the AI strategy and developing AI solutions for smart gas meter and tracking products</li></ul>
+</td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/Rim.png" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Software developer intern</span> (Feb 2024 - Present)
+<ul>
+  <li>Developing a Python library for assisting in teaching mass transfer and thermodynamics 
+  (<a href="https://github.com/osl-pocs/fqlearn">GitHub</a>)</li>
+</ul></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/OSL.png" /></td>
 </tr>
 
 <tr>
