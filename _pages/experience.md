@@ -79,7 +79,7 @@ nav_order: 4
 </tr>
 
 <tr>
-<td><span class="styled-role">Sakura Science exchange student - Advanced Control Systems Lab</span> (Oct 2022)
+<td><span class="styled-role">Exchange student</span> (Oct 2022)
 <ul>
   <li>Mapped university building floors using LiDAR to generate point cloud maps, and compared them to actual floor plans to assess the accuracy
   (<a href="https://docs.google.com/presentation/u/0/d/16vXem3u9ALhnsKBx8YZVZleu-DBJgQBa4F-c1GQZbn0/edit">Project slides</a>) 
@@ -89,7 +89,7 @@ nav_order: 4
 </tr>
 
 <tr>
-<td><span class="styled-role">Research fellow - Summer Geometry Institute</span> (Jul – Aug 2021)
+<td><span class="styled-role">Research fellow</span> (Jul – Aug 2021)
 <ul>
   <li>Explored a hierarchical structure for efficient multigrid solving on meshes, and geometric modeling for isogeometric analysis in engineering</li>
   <li>Developed an unsupervised partial symmetry detection model for 3D models using geometric deep learning</li>
@@ -98,7 +98,7 @@ nav_order: 4
 </tr>
 
 <tr>
-<td><span class="styled-role">Technical Leadership Program participant - VIS lab</span> (Jul – Aug 2021)
+<td><span class="styled-role">Technical Leadership Program participant</span> (Jul – Aug 2021)
 <ul>
   <li>Received STEM training focusing on real-world problem-solving, fast learning, and teamwork</li>
   <li>Designed the power module for a mobile workstation intended for deployment in emergency services
