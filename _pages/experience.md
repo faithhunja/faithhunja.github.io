@@ -35,6 +35,9 @@ nav_order: 4
   }
 </style>
 
+{% tabs experience %}
+
+{% tab experience research %}
 <table>
 
 <tr>
@@ -108,7 +111,9 @@ nav_order: 4
 </tr>
 
 </table>
+{% endtab %}
 
+{% tab experience work %}
 <table>
 
 <tr>
@@ -186,7 +191,9 @@ nav_order: 4
 </tr>
 
 </table>
+{% endtab %}
 
+{% tab experience extra-curricular %}
 <table>
 
 <tr>
@@ -209,3 +216,6 @@ nav_order: 4
 </td></tr>
 
 </table>
+{% endtab %}
+
+{% endtabs %}
