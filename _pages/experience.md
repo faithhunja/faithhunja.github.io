@@ -37,7 +37,7 @@ nav_order: 4
 
 {% tabs experience %}
 
-{% tab experience research %}
+{% tab experience data %}
 <table>
 
 <tr>
@@ -51,6 +51,22 @@ nav_order: 4
   </li>
 </ul></td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/NASA.png" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Chief data officer</span> (Apr 2024 - Present)
+<ul><li>Defining the AI strategy and developing AI solutions for smart gas meter and tracking products</li></ul>
+</td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/Rim.png" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Software developer intern</span> (Feb 2024 - Present)
+<ul>
+  <li>Developing a Python library to facilitate the teaching of mass transfer and thermodynamics 
+  (<a href="https://github.com/osl-pocs/fqlearn">GitHub</a>)</li>
+</ul></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/OSL.png" /></td>
 </tr>
 
 <tr>
@@ -100,40 +116,14 @@ nav_order: 4
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/MIT.png" /></td>
 </tr>
 
-<tr>
-<td><span class="styled-role">Technical Leadership Program participant</span> (Jul – Aug 2021)
-<ul>
-  <li>Received STEM training focusing on real-world problem-solving, fast learning, and teamwork</li>
-  <li>Designed the power module for a mobile workstation intended for deployment in emergency services
-  (<a href="https://drive.google.com/file/d/1s-xkaC8kYttWQbf2LQoSUB-a9emcN8g9/view?usp=sharing">Certificate</a>)</li>
-</ul></td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/CMU.jpg" /></td>
-</tr>
-
 </table>
 {% endtab %}
 
-{% tab experience work %}
+{% tab experience engineering %}
 <table>
 
 <tr>
 <td><h3>work experience</h3></td>
-</tr>
-
-<tr>
-<td><span class="styled-role">Chief data officer</span> (Apr 2024 - Present)
-<ul><li>Defining the AI strategy and developing AI solutions for smart gas meter and tracking products</li></ul>
-</td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/Rim.png" /></td>
-</tr>
-
-<tr>
-<td><span class="styled-role">Software developer intern</span> (Feb 2024 - Present)
-<ul>
-  <li>Developing a Python library to facilitate the teaching of mass transfer and thermodynamics 
-  (<a href="https://github.com/osl-pocs/fqlearn">GitHub</a>)</li>
-</ul></td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/OSL.png" /></td>
 </tr>
 
 <tr>
@@ -180,6 +170,16 @@ nav_order: 4
 </tr>
 
 <tr>
+<td><span class="styled-role">Technical Leadership Program participant</span> (Jul – Aug 2021)
+<ul>
+  <li>Received STEM training focusing on real-world problem-solving, fast learning, and teamwork</li>
+  <li>Designed the power module for a mobile workstation intended for deployment in emergency services
+  (<a href="https://drive.google.com/file/d/1s-xkaC8kYttWQbf2LQoSUB-a9emcN8g9/view?usp=sharing">Certificate</a>)</li>
+</ul></td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/CMU.jpg" /></td>
+</tr>
+
+<tr>
 <td><span class="styled-role">Internet of Things (IoT) engineering intern</span> (Jul - Oct 2019)
 <ul>
   <li>Established communication with various sensors using LoRa, MQTT, Node-RED, and IFTTT</li> 
@@ -202,8 +202,6 @@ nav_order: 4
 
 <tr><td>
 <ul>
-  <!-- <li>Openverse 2024 hackathon co-organizer (Feb - March 2024)
-  (<a href="https://openverse24.devpost.com/">Devpost</a>)</li> -->
   <li>Beta Microsoft Learn Student Ambassador (Aug 2020 - Jun 2023)
   (<a href="https://drive.google.com/file/d/1QSyQXBWv1iFGJ0uvXuzA6zY4rbsDK6Et/view?usp=sharing">Certificate</a>)</li>
   <li>Gold Autodesk Ambassador (Mar 2019 - Jun 2023)</li>
