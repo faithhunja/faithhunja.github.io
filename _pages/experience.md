@@ -5,6 +5,7 @@ title: experience
 description: A summary of my research & work experience and extra-curricular involvements.
 nav: true
 nav_order: 4
+tabs: true
 ---
 
 <style>
@@ -40,9 +41,9 @@ nav_order: 4
 {% tab experience data %}
 <table>
 
-<tr>
+<!-- <tr>
 <td><h3>research experience</h3></td>
-</tr>
+</tr> -->
 
 <tr>
 <td><span class="styled-role">Mentee</span> (Apr 2024 - Present)
@@ -122,9 +123,9 @@ nav_order: 4
 {% tab experience engineering %}
 <table>
 
-<tr>
+<!-- <tr>
 <td><h3>work experience</h3></td>
-</tr>
+</tr> -->
 
 <tr>
 <td><span class="styled-role">Embedded software engineering graduate trainee</span> (Feb - Aug 2023)
@@ -196,9 +197,9 @@ nav_order: 4
 {% tab experience extra-curricular %}
 <table>
 
-<tr>
+<!-- <tr>
 <td><h3>extra-curricular</h3></td>
-</tr>
+</tr> -->
 
 <tr><td>
 <ul>
