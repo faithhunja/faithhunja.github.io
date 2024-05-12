@@ -24,6 +24,7 @@ Jomo Kenyatta University of Agriculture and Technology (2023)
 
 ### other courses
 <!-- - Fast.ai: [Practical Deep Learning for Coders, Part 1](https://course.fast.ai/) - in progress -->
+- AWiMLDS x AIMS Ghana: Mathematics for Machine Learning BootCamp 2024 - in progress
 - NASA: Global Precipitation Measurement Mission (GPM) Mentorship program 2024 Lecture Series ([Certificate](https://drive.google.com/file/d/1MZ2lZyBWmwhjM1kqiV4WawdkljlbZ8Kl/view?usp=sharing))
 - NVIDIA DLI: Deep Learning for Autonomous Vehicles - Perception ([Certificate](https://courses.nvidia.com/certificates/1fcefea6860e47418e74248154cbf1c5))
 - NVIDIA DLI: Getting Started with DeepStream for Video Analytics on Jetson Nano ([Certificate](https://courses.nvidia.com/certificates/649c82d4c2414662a943b9cd68ba5f3f))

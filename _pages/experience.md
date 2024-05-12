@@ -83,7 +83,6 @@ tabs: true
 <td><span class="styled-role">Researcher</span> (Sept 2022 - Present)
 <ul>
   <li>Research collaborator in machine learning for healthcare</li>
-  <li>Vice chair of the 'NLP for Health' Special Interest Group</li>
 </ul>
 </td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/SisonkeBiotik.png" /></td>
@@ -194,7 +193,7 @@ tabs: true
 </table>
 {% endtab %}
 
-{% tab experience extra-curricular %}
+{% tab experience extra %}
 <table>
 
 <!-- <tr>
@@ -203,6 +202,7 @@ tabs: true
 
 <tr><td>
 <ul>
+  <li>Vice chair of the 'NLP for Health' Special Interest Group at SisonkeBiotik (March 2024 - Present)</li>
   <li>Beta Microsoft Learn Student Ambassador (Aug 2020 - Jun 2023)
   (<a href="https://drive.google.com/file/d/1QSyQXBWv1iFGJ0uvXuzA6zY4rbsDK6Et/view?usp=sharing">Certificate</a>)</li>
   <li>Gold Autodesk Ambassador (Mar 2019 - Jun 2023)</li>
