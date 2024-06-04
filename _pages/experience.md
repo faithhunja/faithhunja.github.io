@@ -62,30 +62,25 @@ tabs: true
 </tr>
 
 <tr>
-<td><span class="styled-role">Software developer intern</span> (Feb 2024 - Present)
+<td><span class="styled-role">Junior machine learning engineer</span> (Feb 2024 - Present)
+<ul>
+  <li>My public <a href="https://collaborator.omdena.com/collaborator-profile/70696/">profile page</a></li>
+  <li>Projects participating in include:</li>
+      <ul>
+      <li>Promoting Accurate Information in Colombia and the Dominican Republic: An Integrated System for Detecting Misleading and Misinformation Online</li>
+      </ul>
+</ul>
+</td>
+<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/Omdena.png" /></td>
+</tr>
+
+<tr>
+<td><span class="styled-role">Software developer intern</span> (Feb - May 2024)
 <ul>
   <li>Developing a Python library to facilitate the teaching of mass transfer and thermodynamics 
   (<a href="https://github.com/osl-pocs/fqlearn">GitHub</a>)</li>
 </ul></td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/OSL.png" /></td>
-</tr>
-
-<tr>
-<td><span class="styled-role">Researcher</span> (Jan 2024 - Present)
-<ul>
-  <li>Research collaborator in natural language processing</li>
-</ul>
-</td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/MLC.png" /></td>
-</tr>
-
-<tr>
-<td><span class="styled-role">Researcher</span> (Sept 2022 - Present)
-<ul>
-  <li>Research collaborator in machine learning for healthcare</li>
-</ul>
-</td>
-<td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/SisonkeBiotik.png" /></td>
 </tr>
 
 <tr>
@@ -202,13 +197,16 @@ tabs: true
 
 <tr><td>
 <ul>
+  <li><a href="https://leap.columbia.edu/">LEAP</a> Pangeo research member (May 2024 - Present)</li>
   <li>Vice chair of the 'NLP for Health' Special Interest Group at SisonkeBiotik (March 2024 - Present)</li>
+  <li>Research collaborator in open source ML communities such as SisonkeBiotik and ML Collective (Sept 2022 - Present)</li>
   <li>Beta Microsoft Learn Student Ambassador (Aug 2020 - Jun 2023)
   (<a href="https://drive.google.com/file/d/1QSyQXBWv1iFGJ0uvXuzA6zY4rbsDK6Et/view?usp=sharing">Certificate</a>)</li>
   <li>Gold Autodesk Ambassador (Mar 2019 - Jun 2023)</li>
   <li>AISTATS 2021 conference student volunteer
   (<a href="https://drive.google.com/file/d/10Ut2KDH0laJC3EkxXaBa3rAbc0hXSWGK/view?usp=sharing">Certificate</a>)</li>
-  <li>UTRGV CS Undergraduate Research Workshop 2021 attendee (17% acceptance rate)</li>
+  <li>UTRGV CS Undergraduate Research Workshop 2021 attendee (17% acceptance rate)
+  (<a href="https://workshoputrgv.github.io/group_pics/workshop.pdf">Group picture</a>)</li>
   <li>Microsoft Africa Development Centre Game of Learners 2020 program participant
   (<a href="https://www.credly.com/badges/362e721e-4b9a-41a8-adc2-2272dfedb5d4">Badge</a>)</li>
 </ul>
