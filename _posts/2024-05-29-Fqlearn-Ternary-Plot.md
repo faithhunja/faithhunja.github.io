@@ -3,13 +3,16 @@ layout: post
 title: plotting ternary phase diagrams for solving thermodynamics problems using fqlearn
 date: 2024-05-29
 description: an article on how to use the open source Fqlearn library to plot three phase diagrams used in thermodynamics, also known as ternary plots
-tags: ["open science", "visualization", "ternary phase diagram"]
+tags: ["open science", "visualization", "thermodynamics"]
 # categories: sample-posts
 thumbnail: assets/img/blog_preview/2024-05-29-Fqlearn-Ternary-Plot.png
 featured: false
 toc:
   beginning: true
 ---
+
+Note: This article originally appeared in the Open Science Lab's blog [here](https://opensciencelabs.org/blog/fqlearn-ternary-plot/).
+<hr/>
 
 ## Introduction
 
@@ -69,25 +72,25 @@ model = ThreeComponent()
 We can then call the functions as needed. We define a function `sort_points` that sorts the values it receives as an argument. The points are added using the `add_point` function, which ensures that the argument is not an empty list, removes duplicate tuples, and multiplies each point in the tuple by the scale. 
 
 ```python
-    def add_point(self, points):
-        # Check if points is an empty list
-        if not points:
-            raise ValueError(
-                "The 'points' list cannot be empty. Please provide valid points."
-            )
+def add_point(self, points):
+    # Check if points is an empty list
+    if not points:
+        raise ValueError(
+            "The 'points' list cannot be empty. Please provide valid points."
+        )
 
-        # Remove duplicate points
-        points_to_plot = list(set(points))
+    # Remove duplicate points
+    points_to_plot = list(set(points))
 
-        # Multiply each point by the scale
-        points_to_plot = [
-            (x * self.scale, y * self.scale, z * self.scale)
-            for x, y, z in points_to_plot
-        ]
+    # Multiply each point by the scale
+    points_to_plot = [
+        (x * self.scale, y * self.scale, z * self.scale)
+        for x, y, z in points_to_plot
+    ]
 
-        # Add the points to the plot
-        self.tax.scatter(points_to_plot, linewidth=1.0, marker="o", color="red")
-        return points_to_plot
+    # Add the points to the plot
+    self.tax.scatter(points_to_plot, linewidth=1.0, marker="o", color="red")
+    return points_to_plot
 ```
 
 The `sort_points` function sorts the tuples using the x value in each tuple, then adds them to a new list. This allows us to have the tuples sorted in ascending order along the x-axis. The function also ensures that all points in the tuple(s) in the sorted list add up to the scale.
@@ -390,10 +393,13 @@ We obtain the following ternary plot:
 
 {% include figure.liquid loading="eager" path="assets/img/blog_pics/2024-05-29-Fqlearn-Ternary-Plot/div_half.png" alt="Halving interpolated points" caption="Dividing the interpolated points in half" %}
 
-## Acknowledgements
-I would like to thank the [Open Science Labs](https://opensciencelabs.org/) and The Graph Network for the opportunity to learn and gain experience in open source through this internship. I also thank [Ever Vino](https://github.com/EverVino) for his guidance and mentorship throughout the internship program.
+## Conclusion
 
-## References
+### Acknowledgements
+
+I would like to thank the [Open Science Labs](https://opensciencelabs.org/) and [The Graph Network](https://thegraphnetwork.org/) for giving me the opportunity to learn and gain experience in open source through this internship. I also thank [Ever Vino](https://github.com/EverVino) for his guidance and mentorship throughout the internship program.
+
+### References
 
 [1] Ternary plots - Wikipedia: <https://en.wikipedia.org/wiki/Ternary_plot>
 

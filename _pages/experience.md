@@ -64,11 +64,7 @@ tabs: true
 <tr>
 <td><span class="styled-role">Junior machine learning engineer</span> (Feb 2024 - Present)
 <ul>
-  <li>My public <a href="https://collaborator.omdena.com/collaborator-profile/70696/">profile page</a></li>
-  <li>Projects participating in include:</li>
-      <ul>
-      <li>Promoting Accurate Information in Colombia and the Dominican Republic: An Integrated System for Detecting Misleading and Misinformation Online</li>
-      </ul>
+  <li>Projects I have completed can be found <a href="https://collaborator.omdena.com/collaborator-profile/70696/">here</a></li>      
 </ul>
 </td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/Omdena.png" /></td>

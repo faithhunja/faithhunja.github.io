@@ -15,4 +15,6 @@ nav_order: 2
 Imaging Research and Practice Through Data
 Sharing and Governance</span> <em>(Under review)</em>
 <p>Authors: Lukman Ismaila, Houcemeddine Turki, Mohamed Frikha, Taliya Weinstein, <span style="color:#0076df;">Faith Hunja</span>, Chris Fourie, Steve Adeshina</p></li>
+<!-- <li><span style="color:#0076df; font-weight:bold;">Data Augmentation in African Machine Translation</span> <em>(Under review)</em>
+<p>Authors: Mardiyyah Oduwole, Oluwatosin Olajide, Jamiu Suleiman, <span style="color:#0076df;">Faith Hunja</span>, Busayo Awobade, Comfort Akanni, Fatimo Adebanjo, Chinonyelum Igwe, Abraham Owodunni, Peace Ododo, Promise Omoigui, Steven Kolawole</p></li> -->
 </ol>
