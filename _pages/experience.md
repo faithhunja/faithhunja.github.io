@@ -48,7 +48,7 @@ tabs: true
 <tr>
 <td><span class="styled-role">Mentee</span> (Apr 2024 - Present)
 <ul>
-  <li>Selected to participate in a mentored capstone project as part of the Global Precipitation Measurement (GPM) mentorship program, investigating the precipitation climatology over Lake Victoria  
+  <li>Selected to participate in a mentored capstone project as part of the Global Precipitation Measurement (GPM) mentorship program, investigating the precipitation climatology over Africa  
   </li>
 </ul></td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/NASA.png" /></td>
@@ -73,7 +73,7 @@ tabs: true
 <tr>
 <td><span class="styled-role">Software developer intern</span> (Feb - May 2024)
 <ul>
-  <li>Developing a Python library to facilitate the teaching of mass transfer and thermodynamics 
+  <li>Implemented ternary phase diagram plotting using Fqlearn; a Python library for assisting in teaching mass transfer and thermodynamics 
   (<a href="https://github.com/osl-pocs/fqlearn">GitHub</a>)</li>
 </ul></td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/OSL.png" /></td>
