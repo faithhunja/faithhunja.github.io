@@ -877,7 +877,7 @@ Overall, we make similar conclusions to the preliminary analysis. ECCO is fairly
 
 The code for this project can be found [here](https://github.com/FranckPrts/CMA_2023_Project/tree/main/CISP%20Micropublication).
 
-If you would like to watch the presentation of our project during the Climatematch Impact Scholar Program (CISP) seminar, you can fine the video recording [here](https://www.youtube.com/watch?v=_mT-hI692f8). 
+If you would like to watch the presentation of our project during the Climatematch Impact Scholar Program (CISP) seminar, you can find the video recording [here](https://www.youtube.com/watch?v=_mT-hI692f8). 
 
 You can also find the slides for the preliminary analysis presentation [here](https://faithhunja.github.io/assets/pdf/CMA%202023%20presentation.pdf) and the CISP program presentation [here](https://faithhunja.github.io/assets/pdf/CISP%202023%20presentation.pdf). 
 
