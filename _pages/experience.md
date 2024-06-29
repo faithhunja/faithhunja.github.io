@@ -54,12 +54,12 @@ tabs: true
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/NASA.png" /></td>
 </tr>
 
-<tr>
+<!-- <tr>
 <td><span class="styled-role">Chief data officer</span> (Apr 2024 - Present)
 <ul><li>Defining the AI strategy and developing AI solutions for smart gas meter and tracking products</li></ul>
 </td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/Rim.png" /></td>
-</tr>
+</tr> -->
 
 <tr>
 <td><span class="styled-role">Junior machine learning engineer</span> (Feb 2024 - Present)
@@ -74,6 +74,7 @@ tabs: true
 <td><span class="styled-role">Software developer intern</span> (Feb - May 2024)
 <ul>
   <li>Implemented ternary phase diagram plotting using Fqlearn; a Python library for assisting in teaching mass transfer and thermodynamics 
+  (<a href="https://drive.google.com/file/d/1MmJN375xynhsF_UeuuWW5-Nt8oCnkBsT/view?usp=sharing">Certificate</a>)</li>
   (<a href="https://github.com/osl-pocs/fqlearn">GitHub</a>)</li>
 </ul></td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/OSL.png" /></td>
