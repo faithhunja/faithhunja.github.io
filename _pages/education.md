@@ -21,6 +21,9 @@ Jomo Kenyatta University of Agriculture and Technology (2023)
 - Nordic Probabilistic AI summer school (33h) ([Certificate](https://drive.google.com/file/d/1OgJrEAkxZmfY14GGinlzLY1MiSkLvFHf/view?usp=sharing))                                              
 - Deep Learning: A hands-on introduction (20h) ([Certificate](https://drive.google.com/file/d/10gFx9tSKsQt0OL3JdPq3eo0MCmQtT2nc/view?usp=sharing))
 
+<!-- ### books read
+- An Introduction to Statistical Learning [Link](https://doi.org/10.1007/978-3-031-38747-0_1)
+ -->
 
 ### other courses
 <!-- - Fast.ai: [Practical Deep Learning for Coders, Part 1](https://course.fast.ai/) - in progress -->

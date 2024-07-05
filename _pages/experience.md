@@ -74,7 +74,7 @@ tabs: true
 <td><span class="styled-role">Software developer intern</span> (Feb - May 2024)
 <ul>
   <li>Implemented ternary phase diagram plotting using Fqlearn; a Python library for assisting in teaching mass transfer and thermodynamics 
-  (<a href="https://drive.google.com/file/d/1MmJN375xynhsF_UeuuWW5-Nt8oCnkBsT/view?usp=sharing">Certificate</a>)</li>
+  (<a href="https://drive.google.com/file/d/1MmJN375xynhsF_UeuuWW5-Nt8oCnkBsT/view?usp=sharing">Certificate</a>)
   (<a href="https://github.com/osl-pocs/fqlearn">GitHub</a>)</li>
 </ul></td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/OSL.png" /></td>
@@ -84,6 +84,7 @@ tabs: true
 <td><span class="styled-role">Climatematch impact scholar</span> (Oct 2023 - Jan 2024)
 <ul>
   <li>Took part in a mentored research program to compare the reliability of sea surface height data from the ECCO model and tidal gauge data under the influence of extreme weather events
+  (<a href="https://drive.google.com/file/d/1MEDv8cWpWSm3_044Cu1Jbxu5A8_Uc_-u/view?usp=sharing">Certificate</a>)
   (<a href="https://github.com/FranckPrts/CMA_2023_Project">GitHub</a>)</li>
 </ul></td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/CMA.png" /></td>

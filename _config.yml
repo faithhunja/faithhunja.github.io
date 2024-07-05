@@ -68,7 +68,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: faithhunja # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: faithhunja # your X handle
+x_username: #faithhunja # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: faithhunja # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -292,10 +292,10 @@ jekyll-archives:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
-  # last_name: [Hunja]
-  # first_name: [Faith]
+  # last_name: [Einstein]
+  # first_name: [Albert, A.]
+  last_name: [Hunja]
+  first_name: [Faith]
 
   style: apa
   locale: en
