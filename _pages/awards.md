@@ -2,7 +2,7 @@
 layout: page
 permalink: /awards/
 title: awards
-description: A list of scholarships awarded and hackathons won.
+description: A list of scholarships awarded and competitions won.
 nav: true
 nav_order: 5
 ---
@@ -10,7 +10,8 @@ nav_order: 5
 <style>
 /* Define a class for the styled span */
 .styled-span {
-    color: #0076df;
+    color: #00369f;
+    font-weight: 400;
 }
 
 /* Define a class for the styled image */
@@ -57,7 +58,7 @@ nav_order: 5
 <table>
 
 <tr>
-<td><h3>hackathons</h3></td>
+<td><h3>competitions</h3></td>
 </tr>
 
 <tr>
@@ -72,8 +73,8 @@ nav_order: 5
 <td>
 <span class="styled-span">Global Learning Expedition 2021</span>: My team was awarded the Blue Sky Thinking award for our proposed solution for embracing diversity and inclusion in the digital workspace
 (<a href="https://drive.google.com/file/d/1Ru8F_yEoXwfT3k4CMCYjUsiE_7ceGxXr/view?usp=sharing">Certificate</a>)
-(<a href="https://docs.google.com/presentation/d/1D0xeMncxtlDvI_Izn32GQysFcNsbE5YhLSY1r1WusWo/edit?usp=sharing">Project slides</a>)
-(<a href="https://youtu.be/cAyqZt6VUcc">Video presentation</a>)
+(<a href="https://docs.google.com/presentation/d/1D0xeMncxtlDvI_Izn32GQysFcNsbE5YhLSY1r1WusWo/edit?usp=sharing">Slides</a>)
+(<a href="https://youtu.be/cAyqZt6VUcc">Video</a>)
 (<a href="https://www.the-global-learning-expedition.com/thrivingonline/september-2021">Website</a>)</td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/awards_preview/GLE.png" /></td>
 </tr>

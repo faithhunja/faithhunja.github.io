@@ -56,7 +56,7 @@ left_eq_line = [(0.97, 0.01, 0.02), (0.95, 0.03, 0.02), (0.91, 0.06, 0.03),
 points = left_eq_line + right_eq_line
 ```
 
-We also set the scale of our plot to 100 in the `__init__ function`. This is the value that each tuple must sum up to.
+We also set the scale of our plot to 100 in the `__init__` function. This is the value that each tuple must sum up to.
 
 ```python
 self.scale = 100

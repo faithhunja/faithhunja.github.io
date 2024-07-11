@@ -9,13 +9,10 @@ tabs: true
 ---
 
 <style>
-/* .styled-company {
-    color: #0076df;
-} */
-
 /* Define a class for the styled span */
 .styled-role {
-    color: #0076df;
+    color: #00369f;
+    font-weight: 400;
 }
 
 /* Define a class for the styled image */
@@ -46,9 +43,11 @@ tabs: true
 </tr> -->
 
 <tr>
-<td><span class="styled-role">Mentee</span> (Apr 2024 - Present)
+<td><span class="styled-role">Capstone Project Mentee</span> (Apr 2024 - Present)
 <ul>
-  <li>Selected to participate in a mentored capstone project as part of the Global Precipitation Measurement (GPM) mentorship program, investigating the precipitation climatology over Africa  
+  <li>Participating in a mentored capstone project as part of the Global Precipitation Measurement (GPM) mentorship program, investigating the precipitation climatology over Africa using the IMERG product 
+  (<a href="https://github.com/faithhunja/Investigating-IMERG-precipitation-climatology-in-Africa">GitHub</a>)
+  (<a href="https://faithhunja.github.io/assets/pdf/GPM%20Mentorship%202024%20presentation.pdf">Slides</a>)
   </li>
 </ul></td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/NASA.png" /></td>
@@ -62,7 +61,7 @@ tabs: true
 </tr> -->
 
 <tr>
-<td><span class="styled-role">Junior machine learning engineer</span> (Feb 2024 - Present)
+<td><span class="styled-role">Junior Machine Learning Engineer</span> (Feb 2024 - Present) (Seasonal)
 <ul>
   <li>Projects I have completed can be found <a href="https://collaborator.omdena.com/collaborator-profile/70696/">here</a></li>      
 </ul>
@@ -71,7 +70,7 @@ tabs: true
 </tr>
 
 <tr>
-<td><span class="styled-role">Software developer intern</span> (Feb - May 2024)
+<td><span class="styled-role">Software Developer Intern</span> (Feb - May 2024)
 <ul>
   <li>Implemented ternary phase diagram plotting using Fqlearn; a Python library for assisting in teaching mass transfer and thermodynamics 
   (<a href="https://drive.google.com/file/d/1MmJN375xynhsF_UeuuWW5-Nt8oCnkBsT/view?usp=sharing">Certificate</a>)
@@ -81,7 +80,7 @@ tabs: true
 </tr>
 
 <tr>
-<td><span class="styled-role">Climatematch impact scholar</span> (Oct 2023 - Jan 2024)
+<td><span class="styled-role">Climatematch Impact Scholar</span> (Oct 2023 - Jan 2024)
 <ul>
   <li>Took part in a mentored research program to compare the reliability of sea surface height data from the ECCO model and tidal gauge data under the influence of extreme weather events
   (<a href="https://drive.google.com/file/d/1MEDv8cWpWSm3_044Cu1Jbxu5A8_Uc_-u/view?usp=sharing">Certificate</a>)
@@ -91,17 +90,17 @@ tabs: true
 </tr>
 
 <tr>
-<td><span class="styled-role">Exchange student</span> (Oct 2022)
+<td><span class="styled-role">Sakura Science Exchange Student</span> (Oct 2022)
 <ul>
   <li>Mapped university building floors using LiDAR to generate point cloud maps, and compared them to actual floor plans to assess the accuracy
-  (<a href="https://docs.google.com/presentation/u/0/d/16vXem3u9ALhnsKBx8YZVZleu-DBJgQBa4F-c1GQZbn0/edit">Project slides</a>) 
-  (<a href="https://youtu.be/CqNXNicfxcQ">Video presentation</a>)</li>
+  (<a href="https://docs.google.com/presentation/u/0/d/16vXem3u9ALhnsKBx8YZVZleu-DBJgQBa4F-c1GQZbn0/edit">Slides</a>) 
+  (<a href="https://youtu.be/CqNXNicfxcQ">Video</a>)</li>
 </ul></td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/TCU.jpg" /></td>
 </tr>
 
 <tr>
-<td><span class="styled-role">Research fellow</span> (Jul – Aug 2021)
+<td><span class="styled-role">Research Fellow</span> (Jul – Aug 2021)
 <ul>
   <li>Explored a hierarchical structure for efficient multigrid solving on meshes, and geometric modeling for isogeometric analysis in engineering</li>
   <li>Developed an unsupervised partial symmetry detection model for 3D models using geometric deep learning</li>
@@ -120,14 +119,14 @@ tabs: true
 </tr> -->
 
 <tr>
-<td><span class="styled-role">Embedded software engineering graduate trainee</span> (Feb - Aug 2023)
+<td><span class="styled-role">Embedded Software Engineering Graduate Trainee</span> (Feb - Aug 2023)
 <ul><li>Designed and programmed a land beacon prototype equipped with vibration sensing to monitor activity and send alerts, featuring additional functionalities such as GPS, orientation, tilt, and touch-sensing</li></ul>
 </td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/Geviton.png" /></td>
 </tr>
 
 <tr>
-<td><span class="styled-role">Hardware engineering intern</span> (Mar 2022 - Jan 2023)
+<td><span class="styled-role">Hardware Engineering Intern</span> (Mar 2022 - Jan 2023)
 <ul>
   <li>Designed a prototype tracking device for domestic animals capable of determining location, temperature, and orientation, and transmitting this data to a LoRa gateway</li>
   <li>Designed, programmed, prototyped, validated, tested, and performed PCB assembly for various engineering applications</li>
@@ -137,7 +136,7 @@ tabs: true
 </tr>
 
 <tr>
-<td><span class="styled-role">Mechatronics engineering intern, youth robotics coordinator</span> (Mar - Dec 2021)
+<td><span class="styled-role">Mechatronics Engineering Intern, Youth Robotics Coordinator</span> (Mar - Dec 2021)
 <ul>
   <li>Certified as a Microdrone Instructor
   (<a href="https://drive.google.com/file/d/1BuKy3S77jTEzzIMgzc49ReXYDCnpv5iL/view">Certificate</a>)</li>
@@ -151,10 +150,10 @@ tabs: true
 </tr>
 
 <tr>
-<td><span class="styled-role">Founding engineer</span> (Jun 2020 - Dec 2021)<br>
-<span class="styled-role">Autodesk community consultant, project team lead</span> (Jan - May 2020)
+<td><span class="styled-role">Founding Engineer</span> (Jun 2020 - Dec 2021)<br>
+<span class="styled-role">Autodesk Community Consultant, Project Team Lead</span> (Jan - May 2020)
 <ul>
-  <li>Lead the 'Design and manufacturability of smart home inverters' project during the Autodesk pro bono pilot program
+  <li>Led the 'Design and manufacturability of smart home inverters' project during the Autodesk pro bono pilot program
   (<a href="https://docs.google.com/presentation/d/1KrTVAxAbcux1UlYf01tTnq29lDOVFfjCGHu3sFKktZw/edit?usp=sharing">Project slides</a>)</li>
   <li>Designed schematics, PCBs, and 3D models for a solar inverter system</li>
 </ul>
@@ -163,7 +162,7 @@ tabs: true
 </tr>
 
 <tr>
-<td><span class="styled-role">Technical Leadership Program participant</span> (Jul – Aug 2021)
+<td><span class="styled-role">Technical Leadership Program Participant</span> (Jul – Aug 2021)
 <ul>
   <li>Received STEM training focusing on real-world problem-solving, fast learning, and teamwork</li>
   <li>Designed the power module for a mobile workstation intended for deployment in emergency services
@@ -173,7 +172,7 @@ tabs: true
 </tr>
 
 <tr>
-<td><span class="styled-role">Internet of Things (IoT) engineering intern</span> (Jul - Oct 2019)
+<td><span class="styled-role">Internet of Things (IoT) Engineering Intern</span> (Jul - Oct 2019)
 <ul>
   <li>Established communication with various sensors using LoRa, MQTT, Node-RED, and IFTTT</li> 
   <li>Set up gateways to monitor sensor data on The Things Network and decoded sensor payloads</li> 
@@ -195,17 +194,17 @@ tabs: true
 
 <tr><td>
 <ul>
-  <li><a href="https://leap.columbia.edu/">LEAP</a> Pangeo research member (May 2024 - Present)</li>
-  <li>Vice chair of the 'NLP for Health' Special Interest Group at SisonkeBiotik (March 2024 - Present)</li>
-  <li>Research collaborator in open source ML communities such as SisonkeBiotik and ML Collective (Sept 2022 - Present)</li>
-  <li>Beta Microsoft Learn Student Ambassador (Aug 2020 - Jun 2023)
+  <li><span class="styled-role">Research member</span> at <a href="https://leap.columbia.edu/">LEAP Pangeo</a> (May 2024 - Present)</li>
+  <li><span class="styled-role">Vice chair of the 'NLP for Health' Special Interest Group</span> at SisonkeBiotik (March 2024 - Present)</li>
+  <li><span class="styled-role">Research collaborator</span> in open source ML communities such as SisonkeBiotik and ML Collective (Seasonal)</li>
+  <li><span class="styled-role">Beta Microsoft Learn Student Ambassador</span> (Aug 2020 - Jun 2023)
   (<a href="https://drive.google.com/file/d/1QSyQXBWv1iFGJ0uvXuzA6zY4rbsDK6Et/view?usp=sharing">Certificate</a>)</li>
-  <li>Gold Autodesk Ambassador (Mar 2019 - Jun 2023)</li>
-  <li>AISTATS 2021 conference student volunteer
+  <li><span class="styled-role">Gold Autodesk Ambassador</span> (Mar 2019 - Jun 2023)</li>
+  <li><span class="styled-role">Student volunteer</span> at AISTATS 2021
   (<a href="https://drive.google.com/file/d/10Ut2KDH0laJC3EkxXaBa3rAbc0hXSWGK/view?usp=sharing">Certificate</a>)</li>
-  <li>UTRGV CS Undergraduate Research Workshop 2021 attendee (17% acceptance rate)
+  <li><span class="styled-role">UTRGV CS Undergraduate Research Workshop 2021 attendee</span> (17% acceptance rate)
   (<a href="https://workshoputrgv.github.io/group_pics/workshop.pdf">Group picture</a>)</li>
-  <li>Microsoft Africa Development Centre Game of Learners 2020 program participant
+  <li><span class="styled-role">Game of Learners 2020 program participant</span> at Microsoft Africa Development Centre
   (<a href="https://www.credly.com/badges/362e721e-4b9a-41a8-adc2-2272dfedb5d4">Badge</a>)</li>
 </ul>
 </td></tr>
