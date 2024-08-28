@@ -4,7 +4,7 @@ permalink: /awards/
 title: awards
 description: A list of scholarships awarded and competitions won.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <style>

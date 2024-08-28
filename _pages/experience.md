@@ -4,7 +4,7 @@ permalink: /experience/
 title: experience
 description: A summary of my research & work experience and extra-curricular involvements.
 nav: true
-nav_order: 4
+nav_order: 5
 tabs: true
 ---
 
@@ -48,6 +48,7 @@ tabs: true
   <li>Participating in a mentored capstone project as part of the Global Precipitation Measurement (GPM) mentorship program, investigating the precipitation climatology over Africa using the IMERG product 
   (<a href="https://github.com/faithhunja/Investigating-IMERG-precipitation-climatology-in-Africa">GitHub</a>)
   (<a href="https://faithhunja.github.io/assets/pdf/GPM%20Mentorship%202024%20presentation.pdf">Slides</a>)
+  (<a href="https://drive.google.com/file/d/1WsJBIjTGoFcGugErCcVWwFEjy7gRuaFS/view?usp=sharing">Certificate</a>)
   </li>
 </ul></td>
 <td style="text-align: center"><img class="styled-img" src="/assets/img/experience_preview/NASA.png" /></td>
@@ -70,7 +71,7 @@ tabs: true
 </tr>
 
 <tr>
-<td><span class="styled-role">Software Developer Intern</span> (Feb - May 2024)
+<td><span class="styled-role">Software Developer Intern</span> (Feb - June 2024)
 <ul>
   <li>Implemented ternary phase diagram plotting using Fqlearn; a Python library for assisting in teaching mass transfer and thermodynamics 
   (<a href="https://drive.google.com/file/d/1MmJN375xynhsF_UeuuWW5-Nt8oCnkBsT/view?usp=sharing">Certificate</a>)
@@ -111,7 +112,7 @@ tabs: true
 </table>
 {% endtab %}
 
-{% tab experience engineering %}
+{% tab experience mechatronics %}
 <table>
 
 <!-- <tr>

@@ -26,7 +26,11 @@ Jomo Kenyatta University of Agriculture and Technology (2023)
  -->
 
 ### other courses
-- AWiMLDS x AIMS Ghana: Mathematics for Machine Learning BootCamp 2024 - in progress
+<!-- - FreeCodeCamp: Relational Database certification - in progress -->
+- Microsoft Learn: Build data analytics solutions using Azure Synapse serverless SQL pools ([Certificate](https://drive.google.com/file/d/1HkicKcopg-OtBJg2KTCgVO-U18aH8E9C/view?usp=sharing))
+- Microsoft Learn: Perform data engineering with Azure Synapse Apache Spark Pools ([Certificate](https://drive.google.com/file/d/1KhfZM7Xcen1BLk50lBO10EwnAawbsCuK/view?usp=sharing))
+- Microsoft Learn: Getting started with data engineering on Azure ([Certificate](https://drive.google.com/file/d/1Lan729NuoqHhFsOqLT-u4E7dXn9E2oUu/view?usp=sharing))
+- AWiMLDS x AIMS Ghana: Mathematics for Machine Learning BootCamp 2024
 - NASA: Global Precipitation Measurement Mission (GPM) Mentorship program 2024 Lecture Series ([Certificate](https://drive.google.com/file/d/1MZ2lZyBWmwhjM1kqiV4WawdkljlbZ8Kl/view?usp=sharing))
 - Datacamp: Data Types for Data Science in Python ([Certificate](https://www.datacamp.com/statement-of-accomplishment/course/fd40b57f1987a86f86e79cf75a73744702038476))
 - Datacamp: Introduction to Data Science in Python ([Certificate](https://www.datacamp.com/statement-of-accomplishment/course/6f064ced5cddaa1894bc0f8f03f662d11a265bab))
@@ -36,7 +40,7 @@ Jomo Kenyatta University of Agriculture and Technology (2023)
 - Coursera: Introduction to Programming with MATLAB ([Certificate](https://www.coursera.org/account/accomplishments/verify/TFZVWVV3DCFR))
 - Coursera: Modeling and Debugging Embedded Systems ([Certificate](https://coursera.org/share/be783493d3cf9438a930bc7f712969c9))
 - Microsoft: Azure Fundamentals ([Badge](https://www.credly.com/badges/79d15f5a-5ba1-4b25-b345-351d65a6595c/public_url)) ([Certificate](https://drive.google.com/file/d/1McbtDj_ZoVFwUt1A4sjoTLkNYO7lq4z7/view?usp=sharing))
-- Coursera: An Introduction to Programming the Internet of Things specialisation ([Certificate](https://www.coursera.org/account/accomplishments/specialization/88LN3K73QCQ2))
+- Coursera: An Introduction to Programming the Internet of Things specialization ([Certificate](https://www.coursera.org/account/accomplishments/specialization/88LN3K73QCQ2))
 - The Center for Global Enterprise: Applying Design Thinking to Satisfying Changing Customer Needs ([Certificate](https://cge.novoed.com/#!/courses/business-academy-august2020/statements/1918157))
 - Coursera: Blockchain: Foundations and Use Cases ([Certificate](https://coursera.org/share/90dcb52c3572434ba7ec400e5f81c784))
 - Cisco Networking Academy: Cisco Certified Networking Associate 2 ([Letter](https://drive.google.com/file/d/1Bv_Dr5vOPpSIBj9hRMDqPqe183n8kkpz/view))
