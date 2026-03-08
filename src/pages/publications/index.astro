@@ -6,6 +6,24 @@ import type { Publication } from "@types";
 import publications from "src/content/publications.json";
 
 const pubs = publications as { year: number; entries: Publication[] }[];
+
+// Function to format authors with highlighting
+const formatAuthors = (authorsArray: string[] | undefined, highlightIndices: number[] = []) => {
+  if (!authorsArray || !Array.isArray(authorsArray)) return '';
+  
+  const formattedNames = authorsArray.map((name, index) => {
+    // Check if this author should be highlighted
+    const shouldHighlight = highlightIndices.includes(index);
+    return shouldHighlight ? `<strong>${name}</strong>` : name;
+  });
+  
+  // Format with commas and "and" (Oxford comma style)
+  if (formattedNames.length === 1) return formattedNames[0];
+  if (formattedNames.length === 2) return `${formattedNames[0]} and ${formattedNames[1]}`;
+  
+  const last = formattedNames.pop();
+  return `${formattedNames.join(', ')} and ${last}`;
+};
 ---
 
 <PageLayout title="Publications" description="My academic publications and presentations">
@@ -30,7 +48,7 @@ const pubs = publications as { year: number; entries: Publication[] }[];
                   </p>
                   
                   <p class="animate text-sm">
-                    <span class="italic">Authors:</span> {pub.authors}
+                    <span class="italic">Authors:</span> <span set:html={formatAuthors(pub.authors, pub.authorHighlight)} />
                   </p>
                   
                   {pub.publishedIn && (

@@ -18,7 +18,7 @@ export type Socials = {
 
 export type Publication = {
   title: string;
-  authors: string;
+  authors: string[];
   authorHighlight: number[];
   publishedIn?: string;
   acceptedAt?: string;

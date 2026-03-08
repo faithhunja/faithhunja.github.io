@@ -1,17 +1,22 @@
 [
+    {
+    "year": 2026,
+    "entries": [
+      {
+        "title": "From Scarcity to Efficiency: Investigating the Effects of Data Augmentation on African Machine Translation",
+        "authors": ["Mardiyyah Oduwole", "Oluwatosin Olajide", "Jamiu Suleiman", "Faith Hunja", "Busayo Awobade", "Fatimo Adebanjo", "Comfort Akanni", "Chinonyelum Igwe", "Peace Ododo", "Promise Omoigui", "Abraham Owodunni", "Steven Kolawole"],
+        "authorHighlight": [3],
+        "acceptedAt": "LM4UC workshop at AAAI 2026 in Singapore",
+        "paperLink": "https://doi.org/10.48550/arXiv.2509.07471"
+      }
+    ]
+  },
   {
     "year": 2025,
     "entries": [
       {
-        "title": "From Scarcity to Efficiency: Investigating the Effects of Data Augmentation on African Machine Translation",
-        "authors": "Mardiyyah Oduwole, Oluwatosin Olajide, Jamiu Suleiman, Faith Hunja, Busayo Awobade, Fatimo Adebanjo, Comfort Akanni, Chinonyelum Igwe, Peace Ododo, Promise Omoigui, Abraham Owodunni and Steven Kolawole",
-        "authorHighlight": [3],
-        "acceptedAt": "LMUC workshop at AAAI 2026 in Singapore",
-        "paperLink": "https://doi.org/10.48550/arXiv.2509.07471"
-      },
-      {
         "title": "From Passive to Participatory: Structuring Engaging Workshops for Continued Community Impact",
-        "authors": "Taliya Weinstein, Laing Lourens, Chinonyelum Rosemary Igwe, Comfort Adesina, Marvellous Ajala, Faith Hunja, Francis Agamah, Rolanda Julius and Keneilwe Maremi",
+        "authors": ["Taliya Weinstein", "Laing Lourens", "Chinonyelum Rosemary Igwe", "Comfort Adesina", "Marvellous Ajala", "Faith Hunja", "Francis Agamah", "Rolanda Julius", "Keneilwe Maremi"],
         "authorHighlight": [5],
         "acceptedAt": "HELINA 2025 in Gaborone, Botswana",
         "posterLink": "https://drive.google.com/file/d/1tUbJF9w9G1c9iskNBjWzAzny0tj4B717/view",
@@ -24,7 +29,7 @@
     "entries": [
       {
         "title": "AfriBiobank: Empowering Africa's Medical Imaging Research and Practice Through Data Sharing and Governance",
-        "authors": "Lukman Enegi Ismaila, Houcemeddine Turki, Mohamed Frikha, Taliya Weinstein, Faith Hunja, Chris Fourie and Steve A. Adeshina",
+        "authors": ["Lukman Enegi Ismaila", "Houcemeddine Turki", "Mohamed Frikha", "Taliya Weinstein", "Faith Hunja", "Chris Fourie", "Steve A. Adeshina"],
         "authorHighlight": [4],
         "publishedIn": "Medical Information Computing. MImA EMERGE 2024. Communications in Computer and Information Science (CCIS, volume 2240). Springer, Cham. Feb 2025",
         "acceptedAt": "MICCAI Meets Africa workshop at MICCAI 2024 in Marrakesh, Morocco",
@@ -33,7 +38,7 @@
       },
       {
         "title": "Observing ECCO Model vs Tide Gauges Affected by Hurricane Maria",
-        "authors": "Franck Porteous, Hannah Krohn and Faith Hunja",
+        "authors": ["Franck Porteous", "Hannah Krohn", "Faith Hunja"],
         "authorHighlight": [2],
         "presentedAt": "Climatematch Impact Scholars Program 2023-2024 (CISP)",
         "paperLink": "https://doi.org/10.5281/zenodo.12611241"
