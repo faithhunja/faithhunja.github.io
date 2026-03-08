@@ -3,6 +3,7 @@ title: Observing ECCO vs tidal gauges affected by Hurricane Maria - a deep dive
 description: An analysis of the credibility of SSH data sources under extreme weather events
 date: 2024-06-20
 repoURL: "https://github.com/FranckPrts/CMA_2023_Project/tree/main/CISP%20Micropublication"
+demoURL: "https://www.youtube.com/watch?v=_mT-hI692f8"
 draft: false
 ---
 
@@ -88,7 +89,7 @@ storm_repo_full = {
 }
 ```
 
-<!-- `tg` represents the tide gauge location coordinates obtained from ECCO, while `tg_precise` represents the tide gauge coordinates obtained from the UHSLC/TG database, which have a better accuracy.  --> 
+<!-- `tg` represents the tide gauge location coordinates obtained from ECCO, while `tg_precise` represents the tide gauge coordinates obtained from the UHSLC/TG database, which have a better accuracy.  -->
 
 `tg_repo` is another dictionary used to store the SSH data sourced directly from the UHSLC database, whose temporal resolution is hourly. We specify the links where we obtain SSH data for the tide gauges.
 
@@ -107,9 +108,11 @@ tg_repo = {
 
 Next, we access the SSH data from ECCO. For this purpose, we define a function `get_ds_for_date_range` which takes the following arguments:
 
-- `start_date` and `end_date`, defining the range of dates for which we want to retrieve the SSH data.
-- `lati` and `longi`, representing latitude and longitude coordinates of the location we want to retrieve the data.
-- `auth`, a tuple containing two variables - the user's username and password - from an account which you can create [here](https://urs.earthdata.nasa.gov/home) to access SSH data from ECCO.
+• `start_date` and `end_date`, defining the range of dates for which we want to retrieve the SSH data.
+
+• `lati` and `longi`, representing latitude and longitude coordinates of the location we want to retrieve the data.
+
+• `auth`, a tuple containing two variables - the user's username and password - from an account which you can create [here](https://urs.earthdata.nasa.gov/home) to access SSH data from ECCO.
 
 ```python
 def get_ds_for_date_range(start_date, end_date, lati, longi, auth=auth):
@@ -293,9 +296,11 @@ for lo in locations_to_process:
 In the preliminary analysis, we sought to determine if there existed a linear relationship or any correlation between ECCO and UHSLC SSH data during severe storm events.
 We compared ECCO and UHSLC using:
 
-- one month of SSH data, recorded one month prior to the start of Hurricane Maria,
-- 17 days of SSH data, recorded during Hurricane Maria which happened from 16th September to 2nd October 2017, and
-- one month of SSH data, recorded one month after the end of Hurricane Maria.
+• one month of SSH data, recorded one month prior to the start of Hurricane Maria,
+
+• 17 days of SSH data, recorded during Hurricane Maria which happened from 16th September to 2nd October 2017, and
+
+• one month of SSH data, recorded one month after the end of Hurricane Maria.
 
 We start by defining a function, `plot_time_series_combined`, to plot the combined time series SSH data comparing ECCO and UHSLC during Hurricane Maria, with options to save the plot as a figure.
 
@@ -771,10 +776,13 @@ We decided to extend our analysis to the entire SSH dataset, to see if our findi
 
 We perform some analyses on the data and generate plots to observe any trends in the SSH data obtained from ECCO and UHSLC. For both data sources, we find, compare and plot the following:
 
-- rolling mean comparison
-- rolling standard deviation comparison
-- pearson correlation of the rolling mean and rolling standard deviation
-- pearson correlation for the entire time series
+• rolling mean comparison
+
+• rolling standard deviation comparison
+
+• pearson correlation of the rolling mean and rolling standard deviation
+
+• pearson correlation for the entire time series
 
 To compress and smoothen the temporal coarseness of the SSH data, both ECCO and UHSLC time series data were put through a 1000-hour rolling window to compute the mean and standard deviation. Then we find the pearson correlation coefficient and p-value by comparing the rolling mean and rolling standard deviation obtained from both the ECCO and UHSLC SSH data. The Pearson coefficient is a mathematical correlation coefficient representing the relationship between two variables [[9](https://www.investopedia.com/terms/p/pearsoncoefficient.asp)].
 
@@ -900,9 +908,11 @@ Overall, we make similar conclusions to the preliminary analysis. ECCO is fairly
 
 ### Notes
 
-- The code for this project can be found [here](https://github.com/FranckPrts/CMA_2023_Project/tree/main/CISP%20Micropublication).
-- If you would like to watch the presentation of our project during the Climatematch Impact Scholar Program (CISP) seminar, you can find the video recording [here](https://www.youtube.com/watch?v=_mT-hI692f8). 
-- You can also find the slides for the preliminary analysis presentation [here](https://faithhunja.github.io/assets/pdf/CMA%202023%20presentation.pdf) and the CISP program presentation [here](https://faithhunja.github.io/assets/pdf/CISP%202023%20presentation.pdf).
+• The code for this project can be found [here](https://github.com/FranckPrts/CMA_2023_Project/tree/main/CISP%20Micropublication).
+
+• If you would like to watch the presentation of our project during the Climatematch Impact Scholar Program (CISP) seminar, you can find the video recording [here](https://www.youtube.com/watch?v=_mT-hI692f8).
+
+• You can also find the slides for the preliminary analysis presentation [here](https://faithhunja.github.io/assets/pdf/CMA%202023%20presentation.pdf) and the CISP program presentation [here](https://faithhunja.github.io/assets/pdf/CISP%202023%20presentation.pdf).
 
 ### Acknowledgements
 
