@@ -28,6 +28,11 @@ export const PROJECTS: Metadata = {
   DESCRIPTION: "A collection of my projects.",
 };
 
+export const PUBLICATIONS: Metadata = {
+  TITLE: "Publications",
+  DESCRIPTION: "A list of my publications.",
+};
+
 export const SOCIALS: Socials = [
   { 
     NAME: "linkedin",
