@@ -39,16 +39,16 @@ const work = await Promise.all(
       <section>
         <article class="space-y-4">
           <p class="animate">
-            I work as a data engineer at Reliance Infosystems, a Microsoft partner and consulting company. 
-            I have a bachelor’s degree in mechatronics engineering. 
+            I work as a data engineer at Reliance Infosystems, a Microsoft partner and consulting firm. 
+            I hold a bachelor’s degree in mechatronics engineering. 
           </p>
           <p class="animate">
-            In the data field, I have previous experience working in climate data science, data visualization 
-            and deep learning research projects. I have also worked with embedded systems software design, drone 
-            technology, hardware design and the Internet of Things in the past.
+            In the data field, I have experience in climate data science, data visualization 
+            and deep learning research. I have also worked in embedded systems software design, drone 
+            technology, hardware design and the Internet of Things.
           </p>
           <p class="animate">
-            I am eager to apply my skills and grow into an all-rounded data professional, while contributing to 
+            I am eager to apply my skills and grow into a well-rounded data professional, while contributing to 
             impactful data-driven solutions.
           </p>
           <!-- <p class="animate">
@@ -141,19 +141,18 @@ const work = await Promise.all(
         </h5>
         <article>
           <p>
-            If you want to get in touch with me about something or just to say hi,
-            reach out on social media.
+            If you would like to get in touch with me, reach out on social media.
           </p>
         </article>
         <ul class="flex flex-wrap gap-2">
-          {SOCIALS.map(SOCIAL => (
+            {SOCIALS.map((SOCIAL, index) => (
             <li class="flex gap-x-2 text-nowrap">
               <Link href={SOCIAL.HREF} external aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}>
-                {SOCIAL.NAME}
+              {SOCIAL.NAME}
               </Link>
-              {"/"}
+              {index < SOCIALS.length - 1 && "/"}
             </li>
-          ))}
+            ))}
           <!-- <li class="line-clamp-1">
             <Link href={`mailto:${SITE.EMAIL}`} aria-label={`Email ${SITE.NAME}`}>
               {SITE.EMAIL}
