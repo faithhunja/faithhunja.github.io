@@ -47,30 +47,30 @@ const formatAuthors = (authorsArray: string[] | undefined, highlightIndices: num
                     {pub.title}
                   </p>
                   
-                  <p class="animate text-sm">
+                  <p class="animate text-sm text-gray-600 dark:text-gray-400">
                     <span class="italic">Authors:</span> <span set:html={formatAuthors(pub.authors, pub.authorHighlight)} />
                   </p>
                   
                   {pub.publishedIn && (
-                    <p class="animate text-sm">
+                    <p class="animate text-sm text-gray-600 dark:text-gray-400">
                       <span class="italic">Published in:</span> {pub.publishedIn}
                     </p>
                   )}
                   
                   {pub.acceptedAt && (
-                    <p class="animate text-sm">
+                    <p class="animate text-sm text-gray-600 dark:text-gray-400">
                       <span class="italic">Accepted at:</span> {pub.acceptedAt}
                     </p>
                   )}
                   
                   {pub.presentedAt && (
-                    <p class="animate text-sm">
+                    <p class="animate text-sm text-gray-600 dark:text-gray-400">
                       <span class="italic">Presented at:</span> {pub.presentedAt}
                     </p>
                   )}
                   
                   <div class="pt-1">
-                    <p class="text-base font-medium">
+                    <p class="animate text-base font-medium text-gray-600 dark:text-gray-400">
                       {(() => {
                         const links = [];
                         if (pub.paperLink) links.push({ href: pub.paperLink, text: 'paper' });
