@@ -1,0 +1,114 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import Link from "@components/Link.astro";
+import educationData from "src/content/education.json";
+
+const { education, certifications, learningPrograms, courses } = educationData;
+---
+
+<PageLayout title="Education" description="My educational background, certifications, and courses">
+  <Container>
+    <div class="space-y-10">
+      <div class="animate font-semibold text-black dark:text-white">
+        Education
+      </div>
+      
+      <!-- University Education -->
+      <div class="animate space-y-4">
+        <h2 class="text-lg font-bold text-black dark:text-white border-b border-gray-200 dark:border-gray-700 pb-2">
+          University
+        </h2>
+        
+        <ul class="space-y-4">
+          {education.map(edu => (
+            <li>
+              <p class="font-medium text-black dark:text-white">
+                {edu.university}
+              </p>
+              <p class="text-base text-gray-600 dark:text-gray-400">
+                {edu.degree}
+              </p>
+              <p class="text-sm text-gray-500 dark:text-gray-500">
+                {edu.year}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </div>
+      
+      <!-- Certifications -->
+      <div class="animate space-y-4">
+        <h2 class="text-lg font-bold text-black dark:text-white border-b border-gray-200 dark:border-gray-700 pb-2">
+          Certifications
+        </h2>
+        
+        <ul class="text-base list-disc list-outside pl-5 space-y-2 text-gray-600 dark:text-gray-400">
+          {certifications.map(cert => (
+            <li>
+              <Link href={cert.link} external={true} rel="noopener noreferrer">
+                {cert.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+      
+      <!-- Immersive Learning Programs -->
+      <div class="animate space-y-4">
+        <h2 class="text-lg font-bold text-black dark:text-white border-b border-gray-200 dark:border-gray-700 pb-2">
+          Immersive Learning Programs
+        </h2>
+        
+        <div class="space-y-4">
+          {learningPrograms.map(school => (
+            <div>
+              <h3 class="font-medium text-black dark:text-white">
+                {school.year}
+              </h3>
+              <ul class="list-disc list-outside pl-5 space-y-1 mt-1">
+                {school.entries.map(entry => (
+                  <li class="text-medium text-gray-600 dark:text-gray-400">
+                    {entry.certificateLink ? (
+                      <Link href={entry.certificateLink} external={true} rel="noopener noreferrer">
+                        {entry.name}
+                      </Link>
+                    ) : (
+                      entry.name
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+      
+      <!-- Courses -->
+      <div class="animate space-y-4">
+        <h2 class="text-lg font-bold text-black dark:text-white border-b border-gray-200 dark:border-gray-700 pb-2">
+          Courses
+        </h2>
+        
+        <div class="space-y-4">
+          {courses.map(courseYear => (
+            <div>
+              <h3 class="font-medium text-black dark:text-white">
+                {courseYear.year}
+              </h3>
+              <ul class="list-disc list-outside pl-5 space-y-1 mt-1">
+                {courseYear.entries.map(course => (
+                  <li class="text-medium text-gray-600 dark:text-gray-400">
+                    <Link href={course.link} external={true} rel="noopener noreferrer">
+                      {course.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </Container>
+</PageLayout>
