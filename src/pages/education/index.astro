@@ -46,7 +46,7 @@ const { education, certifications, learningPrograms, courses } = educationData;
         <ul class="text-base list-disc list-outside pl-5 space-y-2 text-gray-600 dark:text-gray-400">
           {certifications.map(cert => (
             <li>
-              <Link href={cert.link} external={true} rel="noopener noreferrer">
+              <Link href={cert.certLink} external={true} rel="noopener noreferrer">
                 {cert.name}
               </Link>
             </li>
@@ -69,8 +69,8 @@ const { education, certifications, learningPrograms, courses } = educationData;
               <ul class="list-disc list-outside pl-5 space-y-1 mt-1">
                 {school.entries.map(entry => (
                   <li class="text-medium text-gray-600 dark:text-gray-400">
-                    {entry.certificateLink ? (
-                      <Link href={entry.certificateLink} external={true} rel="noopener noreferrer">
+                    {entry.certLink ? (
+                      <Link href={entry.certLink} external={true} rel="noopener noreferrer">
                         {entry.name}
                       </Link>
                     ) : (
@@ -99,7 +99,7 @@ const { education, certifications, learningPrograms, courses } = educationData;
               <ul class="list-disc list-outside pl-5 space-y-1 mt-1">
                 {courseYear.entries.map(course => (
                   <li class="text-medium text-gray-600 dark:text-gray-400">
-                    <Link href={course.link} external={true} rel="noopener noreferrer">
+                    <Link href={course.certLink} external={true} rel="noopener noreferrer">
                       {course.name}
                     </Link>
                   </li>

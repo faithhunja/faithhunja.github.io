@@ -19,47 +19,47 @@
   "certifications": [
     {
       "name": "Microsoft Certified: Power BI Data Analyst Associate",
-      "link": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/86A943412966812C?sharingId=328174B137672700"
+      "certLink": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/86A943412966812C?sharingId=328174B137672700"
     },
     {
       "name": "Microsoft Certified: Fabric Data Engineer Associate",
-      "link": "https://learn.microsoft.com/api/credentials/share/en-gb/faithhunja/C4577D1A9F089815?sharingId=328174B137672700"
+      "certLink": "https://learn.microsoft.com/api/credentials/share/en-gb/faithhunja/C4577D1A9F089815?sharingId=328174B137672700"
     },
     {
       "name": "GitHub Copilot",
-      "link": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/5B460E934381B067?sharingId=328174B137672700"
+      "certLink": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/5B460E934381B067?sharingId=328174B137672700"
     },
     {
       "name": "Kubernetes and Cloud Native Associate",
-      "link": "https://www.credly.com/badges/43fa7ffc-dd0e-4a06-a85e-53538939deb7/public_url"
+      "certLink": "https://www.credly.com/badges/43fa7ffc-dd0e-4a06-a85e-53538939deb7/public_url"
     },
     {
       "name": "Microsoft Certified: Azure AI Fundamentals",
-      "link": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/DCDDCB017DBD9D59?sharingId=328174B137672700"
+      "certLink": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/DCDDCB017DBD9D59?sharingId=328174B137672700"
     },
     {
       "name": "Microsoft Certified: Azure Data Fundamentals",
-      "link": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/59795771B44F5E3B?sharingId=328174B137672700"
+      "certLink": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/59795771B44F5E3B?sharingId=328174B137672700"
     },
     {
       "name": "Microsoft Certified: Azure Fundamentals",
-      "link": "https://www.credly.com/badges/79d15f5a-5ba1-4b25-b345-351d65a6595c/public_url"
+      "certLink": "https://www.credly.com/badges/79d15f5a-5ba1-4b25-b345-351d65a6595c/public_url"
     },
     {
       "name": "Strathmore University: CIPIT Data Protection Course",
-      "link": "https://drive.google.com/file/d/1MfUDc9ROB-kVGTDv6GRtejD01pC4LXI_/view?usp=sharing"
+      "certLink": "https://drive.google.com/file/d/1MfUDc9ROB-kVGTDv6GRtejD01pC4LXI_/view?usp=sharing"
     },
     {
       "name": "Astronomer Certification DAG Authoring for Apache Airflow 3",
-      "link": "https://www.credly.com/badges/29111714-2468-4497-aced-799e0c06b2eb/public_url"
+      "certLink": "https://www.credly.com/badges/29111714-2468-4497-aced-799e0c06b2eb/public_url"
     },
     {
       "name": "Astronomer Certification for Apache Airflow 3 Fundamentals",
-      "link": "https://www.credly.com/badges/df8bf695-33bc-4f7b-a283-44e646fc0e79/public_url"
+      "certLink": "https://www.credly.com/badges/df8bf695-33bc-4f7b-a283-44e646fc0e79/public_url"
     },
     {
       "name": "She Maps, WeRobotics: Microdrone Certified Instructor",
-      "link": "https://drive.google.com/file/d/1BuKy3S77jTEzzIMgzc49ReXYDCnpv5iL/view?usp=sharing"
+      "certLink": "https://drive.google.com/file/d/1BuKy3S77jTEzzIMgzc49ReXYDCnpv5iL/view?usp=sharing"
     }
   ],
   "learningPrograms": [
@@ -68,15 +68,15 @@
       "entries": [
         {
           "name": "Web3 Talents program - IN PROGRESS",
-          "certificateLink": ""
+          "certLink": ""
         },
         {
           "name": "SPARK (Sprint AI Training for African Medical Imaging Knowledge Translation) Academy - IN PROGRESS",
-          "certificateLink": ""
+          "certLink": ""
         },
         {
           "name": "SheFi season 16 - IN PROGRESS",
-          "certificateLink": ""
+          "certLink": ""
         }
       ]
     },
@@ -85,7 +85,7 @@
       "entries": [
         {
           "name": "Cohere Labs Open Science Community’s ML Summer School",
-          "certificateLink": "https://credsverse.com/credentials/85a16ae8-edc5-4525-8624-afeb05f3e455"
+          "certLink": "https://credsverse.com/credentials/85a16ae8-edc5-4525-8624-afeb05f3e455"
         }
       ]
     },
@@ -94,15 +94,15 @@
       "entries": [
         {
           "name": "Global Precipitation Measurement Mission (GPM) Mentorship program",
-          "certificateLink": "https://drive.google.com/file/d/1MZ2lZyBWmwhjM1kqiV4WawdkljlbZ8Kl/view?usp=sharing"
+          "certLink": "https://drive.google.com/file/d/1MZ2lZyBWmwhjM1kqiV4WawdkljlbZ8Kl/view?usp=sharing"
         },
         {
           "name": "Neuromatch Academy - Computational Neuroscience",
-          "certificateLink": "https://portal.neuromatchacademy.org/certificate/0df3b00d-9700-44f9-bf76-70e81e8053bc"
+          "certLink": "https://portal.neuromatchacademy.org/certificate/0df3b00d-9700-44f9-bf76-70e81e8053bc"
         },
         {
           "name": "Climatematch Impact Scholars Program",
-          "certificateLink": "https://drive.google.com/file/d/1MEDv8cWpWSm3_044Cu1Jbxu5A8_Uc_-u/view?usp=sharing"
+          "certLink": "https://drive.google.com/file/d/1MEDv8cWpWSm3_044Cu1Jbxu5A8_Uc_-u/view?usp=sharing"
         }
       ]
     },
@@ -111,23 +111,23 @@
       "entries": [
         {
           "name": "International Summer School: Regional Sustainability - Smart Systems and Supply",
-          "certificateLink": "https://drive.google.com/file/d/11aNcZ8hoI1qB9LC0Pg6iwIZPqQYGR6I9/view?usp=sharing"
+          "certLink": "https://drive.google.com/file/d/11aNcZ8hoI1qB9LC0Pg6iwIZPqQYGR6I9/view?usp=sharing"
         },
         {
           "name": "Climatematch Academy - Computational Tools for Climate Science",
-          "certificateLink": "https://portal.neuromatchacademy.org/certificate/d4677640-2b80-4dca-9105-1c35601a48d1"
+          "certLink": "https://portal.neuromatchacademy.org/certificate/d4677640-2b80-4dca-9105-1c35601a48d1"
         },
         {
           "name": "Climate Change AI summer school",
-          "certificateLink": "https://drive.google.com/file/d/18wyrao8W9gYicnvmVIamM6HjHtmmTt29/view?usp=sharing"
+          "certLink": "https://drive.google.com/file/d/18wyrao8W9gYicnvmVIamM6HjHtmmTt29/view?usp=sharing"
         },
         {
           "name": "Machine Learning Summer School on Applications in Science",
-          "certificateLink": "https://drive.google.com/file/d/1mwplsz9XLRtm6Lr1aqehYl2lmgbThnGk/view?usp=sharing"
+          "certLink": "https://drive.google.com/file/d/1mwplsz9XLRtm6Lr1aqehYl2lmgbThnGk/view?usp=sharing"
         },
         {
           "name": "Nordic Probabilistic AI summer school",
-          "certificateLink": "https://drive.google.com/file/d/1OgJrEAkxZmfY14GGinlzLY1MiSkLvFHf/view?usp=sharing"
+          "certLink": "https://drive.google.com/file/d/1OgJrEAkxZmfY14GGinlzLY1MiSkLvFHf/view?usp=sharing"
         }
       ]
     },
@@ -136,15 +136,15 @@
       "entries": [
         {
           "name": "Global Learning Expedition",
-          "certificateLink": "https://drive.google.com/file/d/1Ru8F_yEoXwfT3k4CMCYjUsiE_7ceGxXr/view"
+          "certLink": "https://drive.google.com/file/d/1Ru8F_yEoXwfT3k4CMCYjUsiE_7ceGxXr/view"
         },
         {
           "name": "IAESTE USA Technical Leadership Program",
-          "certificateLink": "https://drive.google.com/file/d/1s-xkaC8kYttWQbf2LQoSUB-a9emcN8g9/view?usp=sharing"
+          "certLink": "https://drive.google.com/file/d/1s-xkaC8kYttWQbf2LQoSUB-a9emcN8g9/view?usp=sharing"
         },
         {
           "name": "UniGe Deep Learning summer course",
-          "certificateLink": "https://drive.google.com/file/d/10gFx9tSKsQt0OL3JdPq3eo0MCmQtT2nc/view?usp=sharing"
+          "certLink": "https://drive.google.com/file/d/10gFx9tSKsQt0OL3JdPq3eo0MCmQtT2nc/view?usp=sharing"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "entries": [
         {
           "name": "Microsoft ADC Game of Learners",
-          "certificateLink": "https://www.credly.com/badges/362e721e-4b9a-41a8-adc2-2272dfedb5d4/public_url"
+          "certLink": "https://www.credly.com/badges/362e721e-4b9a-41a8-adc2-2272dfedb5d4/public_url"
         }
       ]
     },
@@ -162,11 +162,11 @@
       "entries": [
         {
           "name": "Devcon Scholars Program",
-          "certificateLink": "https://drive.google.com/file/d/1KPMwzv38DcBdLyJQJ_r53Ryt76my1o3j/view"
+          "certLink": "https://drive.google.com/file/d/1KPMwzv38DcBdLyJQJ_r53Ryt76my1o3j/view"
         },
         {
           "name": "Ericsson ICT Professional Foundation program MEA",
-          "certificateLink": "https://drive.google.com/file/d/16ha2kllz6_Pfbp8HaEiQCDdtmhpQR1EL/view"
+          "certLink": "https://drive.google.com/file/d/16ha2kllz6_Pfbp8HaEiQCDdtmhpQR1EL/view"
         }
       ]
     }
@@ -177,39 +177,39 @@
       "entries": [
         {
           "name": "Coursera: From Zero to Hero - Digital Product Development From Scratch",
-          "link": "https://coursera.org/share/34cfdc526d3cfde4b4179c733008b944"
+          "certLink": "https://coursera.org/share/34cfdc526d3cfde4b4179c733008b944"
         },
         {
           "name": "Introducing Generative AI with AWS",
-          "link": "www.udacity.com/certificate/e/721a3eac-5429-11f0-b201-f3bbdba722ac"
+          "certLink": "www.udacity.com/certificate/e/721a3eac-5429-11f0-b201-f3bbdba722ac"
         },
         {
           "name": "Kaggle: Python",
-          "link": "https://www.kaggle.com/learn/certification/faithhunja/python"
+          "certLink": "https://www.kaggle.com/learn/certification/faithhunja/python"
         },
         {
           "name": "AWS Educate: Machine Learning Foundations",
-          "link": "https://www.credly.com/badges/dfb35b77-b934-4706-b001-45541cc907a9"
+          "certLink": "https://www.credly.com/badges/dfb35b77-b934-4706-b001-45541cc907a9"
         },
         {
           "name": "The Linux Foundation: Kubernetes and Cloud Native Essentials LFS250",
-          "link": "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/a940acce-09f9-4275-944a-4211c8469ad5-faith-hunja-8f4a40cd-d646-4753-b4b3-a40dd1523226-certificate.pdf"
+          "certLink": "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/a940acce-09f9-4275-944a-4211c8469ad5-faith-hunja-8f4a40cd-d646-4753-b4b3-a40dd1523226-certificate.pdf"
         },
         {
           "name": "AWS Educate: Introduction to Generative AI",
-          "link": "https://www.credly.com/badges/a1b39ca6-890f-44a8-a6cc-61686d1fd4d8/public_url"
+          "certLink": "https://www.credly.com/badges/a1b39ca6-890f-44a8-a6cc-61686d1fd4d8/public_url"
         },
         {
           "name": "Microsoft Global Partner Solutions (GPS): Microsoft Fabric Data Warehousing workshop participant",
-          "link": "https://www.credly.com/badges/ffe7666d-c0ce-4e70-be28-ee704f9e2a9a/public_url"
+          "certLink": "https://www.credly.com/badges/ffe7666d-c0ce-4e70-be28-ee704f9e2a9a/public_url"
         },
         {
           "name": "Microsoft Global Partner Solutions (GPS): Microsoft Fabric Modern Data Engineering workshop participant",
-          "link": "https://www.credly.com/badges/8c2c30d8-40ea-45be-962b-ac9b950c80c7/public_url"
+          "certLink": "https://www.credly.com/badges/8c2c30d8-40ea-45be-962b-ac9b950c80c7/public_url"
         },
         {
           "name": "Microsoft Global Partner Solutions (GPS): Azure OpenAI workshop participant",
-          "link": "https://www.credly.com/badges/60b5c98f-17ce-41a8-8830-3bf5695b4047/public_url"
+          "certLink": "https://www.credly.com/badges/60b5c98f-17ce-41a8-8830-3bf5695b4047/public_url"
         }
       ]
     },
@@ -218,35 +218,35 @@
       "entries": [
         {
           "name": "Google Cloud: Networking Fundamentals on Google Cloud",
-          "link": "https://www.credly.com/badges/a5c2b517-62a8-488d-b9fb-3bfd5e9ad0c7/public_url"
+          "certLink": "https://www.credly.com/badges/a5c2b517-62a8-488d-b9fb-3bfd5e9ad0c7/public_url"
         },
         {
           "name": "Google Cloud: Build a Website on Google Cloud",
-          "link": "https://www.credly.com/badges/9f8d230d-e464-4497-90cd-7ffd68196ecc/public_url"
+          "certLink": "https://www.credly.com/badges/9f8d230d-e464-4497-90cd-7ffd68196ecc/public_url"
         },
         {
           "name": "Google Cloud: Streaming Analytics into BigQuery",
-          "link": "https://www.credly.com/badges/9aa85ac7-4ff7-4083-ab45-e614707343ed/public_url"
+          "certLink": "https://www.credly.com/badges/9aa85ac7-4ff7-4083-ab45-e614707343ed/public_url"
         },
         {
           "name": "Google Cloud: Create a Streaming Data Lake on Cloud Storage",
-          "link": "https://www.credly.com/badges/44f9eda7-afee-4079-9f59-aac6cad19a87/public_url"
+          "certLink": "https://www.credly.com/badges/44f9eda7-afee-4079-9f59-aac6cad19a87/public_url"
         },
         {
           "name": "Google Cloud: Use APIs to Work with Cloud Storage",
-          "link": "https://www.credly.com/badges/2eca620a-84f8-43e3-9026-6ce2fc8171fa/public_url"
+          "certLink": "https://www.credly.com/badges/2eca620a-84f8-43e3-9026-6ce2fc8171fa/public_url"
         },
         {
           "name": "Google Cloud: Get Started with Dataplex",
-          "link": "https://www.credly.com/badges/10956257-9a5f-4ca2-a518-114f41fd60d9/public_url"
+          "certLink": "https://www.credly.com/badges/10956257-9a5f-4ca2-a518-114f41fd60d9/public_url"
         },
         {
           "name": "Google Cloud: Get Started with Cloud Storage",
-          "link": "https://www.credly.com/badges/235e4c1f-d072-487e-9967-70bb5e2013fc/public_url"
+          "certLink": "https://www.credly.com/badges/235e4c1f-d072-487e-9967-70bb5e2013fc/public_url"
         },
         {
           "name": "Google Cloud: Get Started with Looker",
-          "link": "https://www.credly.com/badges/58fd925d-cb44-4869-9287-f77b32b376b5/public_url"
+          "certLink": "https://www.credly.com/badges/58fd925d-cb44-4869-9287-f77b32b376b5/public_url"
         }
       ]
     },
@@ -255,15 +255,15 @@
       "entries": [
         {
           "name": "NVIDIA DLI: Getting Started with DeepStream for Video Analytics on Jetson Nano",
-          "link": "https://learn.nvidia.com/certificates?id=649c82d4c2414662a943b9cd68ba5f3f"
+          "certLink": "https://learn.nvidia.com/certificates?id=649c82d4c2414662a943b9cd68ba5f3f"
         },
         {
           "name": "NVIDIA DLI: Deep Learning for Autonomous Vehicles - Perception",
-          "link": "https://learn.nvidia.com/certificates?id=1fcefea6860e47418e74248154cbf1c5"
+          "certLink": "https://learn.nvidia.com/certificates?id=1fcefea6860e47418e74248154cbf1c5"
         },
         {
           "name": "Coursera: Introduction to Programming with MATLAB",
-          "link": "https://www.coursera.org/account/accomplishments/verify/TFZVWVV3DCFR"
+          "certLink": "https://www.coursera.org/account/accomplishments/verify/TFZVWVV3DCFR"
         }
       ]
     },
@@ -272,15 +272,15 @@
       "entries": [
         {
           "name": "Coursera: Modeling and Debugging Embedded Systems",
-          "link": "https://coursera.org/share/be783493d3cf9438a930bc7f712969c9"
+          "certLink": "https://coursera.org/share/be783493d3cf9438a930bc7f712969c9"
         },
         {
           "name": "Coursera: An Introduction to Programming the Internet of Things specialization",
-          "link": "https://www.coursera.org/account/accomplishments/specialization/88LN3K73QCQ2"
+          "certLink": "https://www.coursera.org/account/accomplishments/specialization/88LN3K73QCQ2"
         },
         {
           "name": "The Center for Global Enterprise: Applying Design Thinking to Satisfying Changing Customer Needs",
-          "link": "https://cge.novoed.com/#!/courses/business-academy-august2020/statements/1918157"
+          "certLink": "https://cge.novoed.com/#!/courses/business-academy-august2020/statements/1918157"
         }
       ]
     },
@@ -289,7 +289,7 @@
       "entries": [
         {
           "name": "Coursera: Blockchain: Foundations and Use Cases",
-          "link": "https://coursera.org/share/90dcb52c3572434ba7ec400e5f81c784"
+          "certLink": "https://coursera.org/share/90dcb52c3572434ba7ec400e5f81c784"
         }
       ]
     },
@@ -298,7 +298,7 @@
       "entries": [
         {
           "name": "Cisco Networking Academy: CCNA Routing and Switching Essentials",
-          "link": "https://drive.google.com/file/d/1Yek97dREIGUsHAV4z9CsILzti3S2XiF4/view?usp=sharing"
+          "certLink": "https://drive.google.com/file/d/1Yek97dREIGUsHAV4z9CsILzti3S2XiF4/view?usp=sharing"
         }
       ]
     }
