@@ -26,7 +26,7 @@ const { education, certifications, learningPrograms, courses } = educationData;
               <p class="font-medium text-black dark:text-white">
                 {edu.university}
               </p>
-              <p class="text-base text-gray-600 dark:text-gray-400">
+              <p class="text-base prose dark:prose-invert">
                 {edu.degree}
               </p>
               <p class="text-sm text-gray-500 dark:text-gray-500">
@@ -43,9 +43,9 @@ const { education, certifications, learningPrograms, courses } = educationData;
           Certifications
         </h2>
         
-        <ul class="text-base list-disc list-outside pl-5 space-y-2 text-gray-600 dark:text-gray-400">
+        <ul class="text-base list-disc list-outside pl-5 space-y-2">
           {certifications.map(cert => (
-            <li>
+            <li class="text-medium prose dark:prose-invert">
               <Link href={cert.certLink} external={true} rel="noopener noreferrer">
                 {cert.name}
               </Link>
@@ -68,7 +68,7 @@ const { education, certifications, learningPrograms, courses } = educationData;
               </h3>
               <ul class="list-disc list-outside pl-5 space-y-1 mt-1">
                 {school.entries.map(entry => (
-                  <li class="text-medium text-gray-600 dark:text-gray-400">
+                  <li class="text-medium prose dark:prose-invert">
                     {entry.certLink ? (
                       <Link href={entry.certLink} external={true} rel="noopener noreferrer">
                         {entry.name}
@@ -98,7 +98,7 @@ const { education, certifications, learningPrograms, courses } = educationData;
               </h3>
               <ul class="list-disc list-outside pl-5 space-y-1 mt-1">
                 {courseYear.entries.map(course => (
-                  <li class="text-medium text-gray-600 dark:text-gray-400">
+                  <li class="text-medium prose dark:prose-invert">
                     <Link href={course.certLink} external={true} rel="noopener noreferrer">
                       {course.name}
                     </Link>

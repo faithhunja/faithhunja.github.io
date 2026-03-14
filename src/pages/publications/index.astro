@@ -47,24 +47,24 @@ const formatAuthors = (authorsArray: string[] | undefined, highlightIndices: num
                     {pub.title}
                   </p>
                   
-                  <p class="animate text-sm text-black dark:text-white">
+                  <p class="animate text-sm prose prose-sm dark:prose-invert">
                     <span class="italic">Authors:</span> <span set:html={formatAuthors(pub.authors, pub.authorHighlight)} />
                   </p>
                   
                   {pub.publishedIn && (
-                    <p class="animate text-sm text-black dark:text-white">
+                    <p class="animate text-sm prose prose-sm dark:prose-invert">
                       <span class="italic">Published in:</span> {pub.publishedIn}
                     </p>
                   )}
                   
                   {pub.acceptedAt && (
-                    <p class="animate text-sm text-black dark:text-white">
+                    <p class="animate text-sm prose prose-sm dark:prose-invert">
                       <span class="italic">Accepted at:</span> {pub.acceptedAt}
                     </p>
                   )}
                   
                   {pub.presentedAt && (
-                    <p class="animate text-sm text-black dark:text-white">
+                    <p class="animate text-sm prose prose-sm dark:prose-invert">
                       <span class="italic">Presented at:</span> {pub.presentedAt}
                     </p>
                   )}
