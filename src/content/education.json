@@ -18,12 +18,16 @@
   ],
   "certifications": [
     {
-      "name": "Microsoft Certified: Power BI Data Analyst Associate",
-      "certLink": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/86A943412966812C?sharingId=328174B137672700"
-    },
-    {
       "name": "Microsoft Certified: Fabric Data Engineer Associate",
       "certLink": "https://learn.microsoft.com/api/credentials/share/en-gb/faithhunja/C4577D1A9F089815?sharingId=328174B137672700"
+    },
+    {
+      "name": "Microsoft Certified: Fabric Analytics Engineer Associate",
+      "certLink": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/283566017A2074DE?sharingId=328174B137672700"
+    },
+    {
+      "name": "Microsoft Certified: Power BI Data Analyst Associate",
+      "certLink": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/86A943412966812C?sharingId=328174B137672700"
     },
     {
       "name": "GitHub Copilot",
