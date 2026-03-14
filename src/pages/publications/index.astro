@@ -33,66 +33,62 @@ const formatAuthors = (authorsArray: string[] | undefined, highlightIndices: num
         Publications
       </div>
       
-      <section>
-        <article>
-          <div class="space-y-8">
-            {pubs.map(yearGroup => (
-              <div class="animate space-y-4">
-                <h2 class="text-xl font-bold text-black dark:text-white border-b border-gray-200 dark:border-gray-700 pb-2">
-                  {yearGroup.year}
-                </h2>
-                
-                <ul class="space-y-6">
-                  {yearGroup.entries.map(pub => (
-                    <li class="space-y-1">
-                      <p class="font-medium text-black dark:text-white">
-                        {pub.title}
-                      </p>
-                      
-                      <p class="animate text-sm">
-                        <span class="italic">Authors:</span> <span set:html={formatAuthors(pub.authors, pub.authorHighlight)} />
-                      </p>
-                      
-                      {pub.publishedIn && (
-                        <p class="animate text-sm">
-                          <span class="italic">Published in:</span> {pub.publishedIn}
-                        </p>
-                      )}
-                      
-                      {pub.acceptedAt && (
-                        <p class="animate text-sm">
-                          <span class="italic">Accepted at:</span> {pub.acceptedAt}
-                        </p>
-                      )}
-                      
-                      {pub.presentedAt && (
-                        <p class="animate text-sm">
-                          <span class="italic">Presented at:</span> {pub.presentedAt}
-                        </p>
-                      )}
-                      
-                      <div class="pt-1">
-                        <p class="animate text-base font-medium">
-                          {(() => {
-                            const links = [];
-                            if (pub.paperLink) links.push({ href: pub.paperLink, text: 'paper' });
-                            if (pub.posterLink) links.push({ href: pub.posterLink, text: 'poster' });
-                            if (pub.programLink) links.push({ href: pub.programLink, text: 'conference program' });
-                            return links.flatMap((link, index) => [
-                              index > 0 ? ' / ' : '',
-                              <Link href={link.href} external={true} rel="noopener noreferrer">{link.text}</Link>
-                            ]);
-                          })()}
-                        </p>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+      <div class="space-y-8">
+        {pubs.map(yearGroup => (
+          <div class="animate space-y-4">
+            <h2 class="text-xl font-bold text-black dark:text-white border-b border-gray-200 dark:border-gray-700 pb-2">
+              {yearGroup.year}
+            </h2>
+            
+            <ul class="space-y-6">
+              {yearGroup.entries.map(pub => (
+                <li class="space-y-1">
+                  <p class="font-medium text-black dark:text-white">
+                    {pub.title}
+                  </p>
+                  
+                  <p class="animate text-sm text-black dark:text-white">
+                    <span class="italic">Authors:</span> <span set:html={formatAuthors(pub.authors, pub.authorHighlight)} />
+                  </p>
+                  
+                  {pub.publishedIn && (
+                    <p class="animate text-sm text-black dark:text-white">
+                      <span class="italic">Published in:</span> {pub.publishedIn}
+                    </p>
+                  )}
+                  
+                  {pub.acceptedAt && (
+                    <p class="animate text-sm text-black dark:text-white">
+                      <span class="italic">Accepted at:</span> {pub.acceptedAt}
+                    </p>
+                  )}
+                  
+                  {pub.presentedAt && (
+                    <p class="animate text-sm text-black dark:text-white">
+                      <span class="italic">Presented at:</span> {pub.presentedAt}
+                    </p>
+                  )}
+                  
+                  <div class="pt-1">
+                    <p class="animate text-base font-medium text-gray-600 dark:text-gray-400">
+                      {(() => {
+                        const links = [];
+                        if (pub.paperLink) links.push({ href: pub.paperLink, text: 'paper' });
+                        if (pub.posterLink) links.push({ href: pub.posterLink, text: 'poster' });
+                        if (pub.programLink) links.push({ href: pub.programLink, text: 'conference program' });
+                        return links.flatMap((link, index) => [
+                          index > 0 ? ' / ' : '',
+                          <Link href={link.href} external={true} rel="noopener noreferrer">{link.text}</Link>
+                        ]);
+                      })()}
+                    </p>
+                  </div>
+                </li>
+              ))}
+            </ul>
           </div>
-        </article>
-      </section>
+        ))}
+      </div>
     </div>
   </Container>
 </PageLayout>
