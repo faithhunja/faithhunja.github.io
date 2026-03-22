@@ -20,7 +20,7 @@ A ternary plot, ternary graph, triangle plot, simplex plot, or Gibbs triangle is
 
 In a ternary plot, the values of the three variables a, b, and c must sum to some constant, K. Usually, this constant is represented as 1.0 or 100%. Because a + b + c = K for all substances being graphed, any one variable is not independent of the others, so only two variables must be known to find a sample's point on the graph: for instance, c must be equal to K − a − b. Because the three numerical values cannot vary independently—there are only two degrees of freedom—it is possible to graph the combinations of all three variables in only two dimensions.
 
-The advantage of using a ternary plot for depicting chemical compositions is that three variables can be conveniently plotted in a two-dimensional graph. Ternary plots can also be used to create phase diagrams by outlining the composition regions on the plot where different phases exist [[1](https://en.wikipedia.org/wiki/Ternary_plot)]. 
+The advantage of using a ternary plot for depicting chemical compositions is that three variables can be conveniently plotted in a two-dimensional graph. Ternary plots can also be used to create phase diagrams by outlining the composition regions on the plot where different phases exist [[1](https://en.wikipedia.org/wiki/Ternary_plot)].
 
 ## Methods
 
@@ -61,7 +61,7 @@ from fqlearn import ThreeComponent
 model = ThreeComponent()
 ```
 
-We can then call the functions as needed. We define a function `sort_points` that sorts the values it receives as an argument. The points are added using the `add_point` function, which ensures that the argument is not an empty list, removes duplicate tuples, and multiplies each point in the tuple by the scale. 
+We can then call the functions as needed. We define a function `sort_points` that sorts the values it receives as an argument. The points are added using the `add_point` function, which ensures that the argument is not an empty list, removes duplicate tuples, and multiplies each point in the tuple by the scale.
 
 ```python
 def add_point(self, points):
