@@ -401,7 +401,7 @@ I would like to thank the [Open Science Labs](https://opensciencelabs.org/) and 
 
 ### Notes
 
-This article was also published in Open Science Lab's blog [here](https://opensciencelabs.org/blog/fqlearn-ternary-plot/).
+This article was also published in Open Science Lab's [blog](https://opensciencelabs.org/blog/fqlearn-ternary-plot/).
 
 ### References
 
