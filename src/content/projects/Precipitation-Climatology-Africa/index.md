@@ -1,8 +1,7 @@
 ---
 title: "Investigating the Precipitation Climatology over Lake Victoria"
-description: "My learnings from the GPM Mentorship 2024 program lecture series and capstone project
+description: "My learnings from the GPM Mentorship 2024 program lecture series and capstone project"
 date: 2024-04-19
-demoURL: ""
 repoURL: "https://github.com/faithhunja/SQL-Server-Audit-and-Monitoring-in-Power-BI"
 draft: True
 ---
@@ -23,7 +22,7 @@ GPM is an international satellite mission launched by NASA and JAXA on 27th Febr
 - Late run: Has 12-hour latency, and is updated every hour.
 - Final run: Has 3-month latency, and is updated every month.
 
-For this project, we use the grand (for the full time period available) and monthly precipitation estimates, and for the final run, which is the research grade product with the full algorithm. The IMERG algorithm also natively produces half-hour estimates (and monthly estimates for the Final Run), but other derived products, such as daily precipitation estimates aggregated from the half-hour, are produced by data providers as a convenience to users [[3](https://climatedataguide.ucar.edu/climate-data/gpm-global-precipitation-measurement-mission)]. We converted the precipitation estimates from IMERG into grand and monthly estimates for our use in this project. Also, we will use the latest version of IMERG which is V07. The best source of IMERG data can be found on the GPM website [here](https://gpm.nasa.gov/data/directory).
+For this project, we use the grand (for the full time period available) and monthly precipitation estimates, and for the final run, which is the research grade product with the full algorithm. The IMERG algorithm also natively produces half-hour estimates (and monthly estimates for the Final Run), but other derived products, such as daily precipitation estimates aggregated from the half-hour, are produced by data providers as a convenience to users [[3](https://climatedataguide.ucar.edu/climate-data/gpm-global-precipitation-measurement-mission)]. We converted the precipitation estimates from IMERG into grand and monthly estimates for our use in this project. Also, we will use the latest version of IMERG which is V07. The best source of IMERG data can be found on the [GPM website](https://gpm.nasa.gov/data/directory).
 
 - Suspicion that IMERG exaggerates precipitation for inland water bodies
 - Verifying using Lake Victoria
@@ -71,7 +70,6 @@ Its coordinates are ...
 ## Conclusion
 
 ### References
-
 
 [1] <https://education.nationalgeographic.org/resource/precipitation/>
 

@@ -61,7 +61,7 @@ Steps to set up a Server Audit and Server Audit Specification in SQL Server:
 
 The first step is defining where the audit logs will be written. We configured a server audit that outputs to a folder on the file system. This ensures logs persist even if the database is offline.
 
-```SQL
+<!-- ```SQL
 -- Create the server audit in the master database
 USE master;
 GO
@@ -75,7 +75,7 @@ TO FILE
 )
 WITH (QUEUE_DELAY = 1000, ON_FAILURE = CONTINUE);
 ALTER SERVER AUDIT [SQL_Server_Audit] WITH (STATE = ON);
-```
+``` -->
 
 ### Creating a Database Audit Specification
 
