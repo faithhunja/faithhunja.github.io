@@ -1,6 +1,6 @@
 ---
 company: "NASA"
-role: "GPM Mentorship Program Mentee"
+role: "GPM Mentee"
 dateStart: "04/01/2024"
 dateEnd: "10/31/2024"
 ---

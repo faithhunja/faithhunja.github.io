@@ -2,7 +2,7 @@
 title: "Plotting ternary phase diagrams for solving thermodynamics problems using Fqlearn"
 description: "Using the Fqlearn library to plot three phase diagrams used in thermodynamics"
 date: 2024-05-29
-draft: false
+draft: true
 ---
 
 ## Introduction

@@ -1,6 +1,6 @@
 ---
 company: "Upande Limited"
-role: "Internet of Things (IoT) Engineering Intern"
+role: "Internet of Things (IoT) Intern"
 dateStart: "07/01/2019"
 dateEnd: "10/30/2019"
 ---

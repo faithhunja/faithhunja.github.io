@@ -1,6 +1,6 @@
 ---
 company: "Climatematch Academy"
-role: "Impact Scholar (Data Analyst)"
+role: "Impact Scholar (Data Scientist)"
 dateStart: "08/01/2023"
 dateEnd: "01/31/2024"
 ---

@@ -1,6 +1,6 @@
 ---
 company: "Tokyo City University"
-role: "Sakura Science Exchange Student"
+role: "Exchange Student"
 dateStart: "10/01/2022"
 dateEnd: "10/30/2022"
 ---
