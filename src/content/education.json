@@ -18,6 +18,10 @@
   ],
   "certifications": [
     {
+      "name": "Microsoft Certified: SQL AI Developer Associate",
+      "certLink": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/29E7B14E41E4591E?sharingId=328174B137672700"
+    },
+    {
       "name": "Microsoft Certified: Fabric Data Engineer Associate",
       "certLink": "https://learn.microsoft.com/api/credentials/share/en-gb/faithhunja/C4577D1A9F089815?sharingId=328174B137672700"
     },
@@ -30,8 +34,16 @@
       "certLink": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/86A943412966812C?sharingId=328174B137672700"
     },
     {
+      "name": "GitHub Actions",
+      "certLink": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/2A95047D7D47042F?sharingId=328174B137672700"
+    },
+    {
       "name": "GitHub Copilot",
       "certLink": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/5B460E934381B067?sharingId=328174B137672700"
+    },
+    {
+      "name": "GitHub Foundations",
+      "certLink": "https://learn.microsoft.com/api/credentials/share/en-us/faithhunja/1DEA55A477C48CDA?sharingId=328174B137672700"
     },
     {
       "name": "Kubernetes and Cloud Native Associate",
@@ -71,16 +83,8 @@
       "year": "2026",
       "entries": [
         {
-          "name": "Web3 Talents program - IN PROGRESS",
-          "certLink": ""
-        },
-        {
-          "name": "SPARK (Sprint AI Training for African Medical Imaging Knowledge Translation) Academy - IN PROGRESS",
-          "certLink": ""
-        },
-        {
-          "name": "SheFi season 16 - IN PROGRESS",
-          "certLink": ""
+          "name": "Web3 Talents program",
+          "certLink": "certificates.web3-talents.com/verify/88iU_Rm6bI1AMBSbIL3vxB1O"
         }
       ]
     },
