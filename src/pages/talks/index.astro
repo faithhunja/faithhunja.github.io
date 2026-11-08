@@ -1,0 +1,73 @@
+---
+import Container from "@components/Container.astro";
+import Link from "@components/Link.astro";
+import PageLayout from "@layouts/PageLayout.astro";
+import talks from "src/content/talks.json";
+
+type Talk = {
+  title: string;
+  event: string;
+  date: string;
+  post?: string;
+  article?: string;
+  slides?: string;
+  video?: string;
+  code?: string;
+  poster?: string;
+};
+
+const talkEntries: Talk[] = talks;
+const getTalkLinks = (talk: Talk) =>
+  [
+    { label: "post", href: talk.post },
+    { label: "article", href: talk.article },
+    { label: "slides", href: talk.slides },
+    { label: "video", href: talk.video },
+    { label: "code", href: talk.code },
+  ].filter((link): link is { label: string; href: string } => Boolean(link.href));
+---
+
+<PageLayout title="Talks" description="Talks and presentations by Faith Hunja.">
+  <Container>
+    <div class="space-y-10">
+      <h4 class="animate font-semibold text-black dark:text-white">
+        Talks
+      </h4>
+
+      <ul class="flex flex-col space-y-6">
+        {talkEntries.map((talk) => (
+          <li class="animate">
+            <div class:list={["grid items-start gap-6", talk.poster && "md:grid-cols-[minmax(0,1fr)_minmax(0,18rem)]"]}>
+              <div>
+                <h5 class="font-semibold text-black dark:text-white">
+                  {talk.title}
+                </h5>
+                <article class="space-y-1">
+                  <p class="!my-0">{talk.event}</p>
+                  <p class="!my-0">{talk.date}</p>
+                  {getTalkLinks(talk).length > 0 && (
+                    <p class="!my-0">
+                      {getTalkLinks(talk).flatMap(({ label, href }, index) => [
+                        index > 0 ? " • " : "",
+                        <Link href={href} external rel="noopener noreferrer">{label}</Link>,
+                      ])}
+                    </p>
+                  )}
+                </article>
+              </div>
+              {talk.poster && (
+                <figure class="m-0">
+                  <img
+                    src={talk.poster}
+                    alt={`Poster for ${talk.title}`}
+                    class="m-0 max-h-[32rem] w-full rounded object-contain object-left-top"
+                  />
+                </figure>
+              )}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </Container>
+</PageLayout>
