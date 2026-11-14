@@ -2,29 +2,35 @@
 import { getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
-import ArrowCard from "@components/ArrowCard.astro";
+import ProjectCard from "@components/ProjectCard.astro";
 import { PROJECTS } from "@consts";
 
 const projects = (await getCollection("projects"))
   .filter(project => !project.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  .sort((a, b) => b.data.dateCompleted.valueOf() - a.data.dateCompleted.valueOf());
+
+const columns = [
+  projects.filter((_, index) => index % 2 === 0),
+  projects.filter((_, index) => index % 2 === 1),
+];
 ---
 
 <PageLayout title={PROJECTS.TITLE} description={PROJECTS.DESCRIPTION}>
   <Container>
-    <div class="space-y-10">
-      <div class="animate font-semibold text-black dark:text-white">
+    <div class="space-y-8">
+      <h1 class="animate font-semibold text-black dark:text-white">
         Projects
-      </div>
-      <ul class="animate flex flex-col gap-4">
-        {
-          projects.map((project) => (
-            <li>
-              <ArrowCard entry={project}/>
-            </li>
-          ))
-        }
+      </h1>
+      <ul class="animate flex flex-col gap-5 sm:hidden">
+        {projects.map((project) => <ProjectCard project={project} />)}
       </ul>
+      <div class="animate hidden gap-5 sm:grid sm:grid-cols-2">
+        {columns.map((column) => (
+          <ul class="flex flex-col gap-5">
+            {column.map((project) => <ProjectCard project={project} />)}
+          </ul>
+        ))}
+      </div>
     </div>
   </Container>
 </PageLayout>
