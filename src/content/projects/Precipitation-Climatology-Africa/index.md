@@ -1,9 +1,9 @@
 ---
-title: "Investigating the Precipitation Climatology over Lake Victoria"
-description: "My learnings from the GPM Mentorship 2024 program lecture series and capstone project"
-date: 2024-04-19
-repoURL: "https://github.com/faithhunja/SQL-Server-Audit-and-Monitoring-in-Power-BI"
-draft: True
+title: Investigating the Precipitation Climatology over Lake Victoria
+description: A planned analysis of NASA GPM IMERG rainfall estimates over Lake Victoria, comparing long-term and monthly precipitation climatologies
+dateCompleted: 2024-04-19
+tech: [Python, NASA GPM IMERG, HDF5, netCDF4]
+draft: true
 ---
 
 ## Introduction

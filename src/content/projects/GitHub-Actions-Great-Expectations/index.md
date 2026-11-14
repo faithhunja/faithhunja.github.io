@@ -1,9 +1,11 @@
 ---
-title: "Building a data quality pipeline with GitHub Actions and Great Expectations"
-description: "Using GitHub Actions and Great Expectations to enforce data quality on flight telemetry data"
-date: 2026-07-10
+title: Building a data quality pipeline with GitHub Actions and Great Expectations
+description: A draft pipeline for ingesting flight telemetry and validating data quality in GitHub Actions
+dateCompleted: 2026-07-10
+tech: [Python, GitHub Actions, uv, Great Expectations]
+cover: ./workflow_diagram.png
 repoURL: "https://github.com/faithhunja/flight-data-quality-and-ingestion-pipeline"
-draft: True
+draft: true
 ---
 
 ## Introduction

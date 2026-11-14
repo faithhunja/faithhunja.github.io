@@ -1,10 +1,10 @@
 ---
-title: "Database Auditing in Microsoft SQL Server and Monitoring in Power BI"
-description: "Implementing SQL Server database auditing and progressive monitoring in Power BI"
-date: 2026-03-20
-demoURL: ""
+title: Database Auditing in Microsoft SQL Server and Monitoring in Power BI
+description: A draft SQL Server auditing solution with a Power BI dashboard for reviewing database activity
+dateCompleted: 2025-03-20
+tech: [Microsoft SQL Server, T-SQL, Power BI]
 repoURL: "https://github.com/faithhunja/SQL-Server-Audit-and-Monitoring-in-Power-BI"
-draft: True
+draft: true
 ---
 
 ## Introduction
@@ -15,11 +15,11 @@ When it comes to database servers, addressing these concerns requires more than 
 
 Auditing in database servers is important because it helps enforce:
 
-• Security: Auditing helps you quickly identify suspicious or unauthorized activity in your database server
+- Security: Auditing helps you quickly identify suspicious or unauthorized activity in your database server
 
-• Compliance: It supports adherence to standards like GDPR (General Data Protection Regulation) and HIPAA (Health Insurance Portability and Accountability Act), which require safeguarding sensitive information
+- Compliance: It supports adherence to standards like GDPR (General Data Protection Regulation) and HIPAA (Health Insurance Portability and Accountability Act), which require safeguarding sensitive information
 
-• Accountability: Auditing maintains a clear history of changes and access within your database server
+- Accountability: Auditing maintains a clear history of changes and access within your database server
 
 I recently implemented an auditing solution in SQL Server, that tracks database activity across multiple users and visualized it in an interactive Power BI dashboard. In this post, I'll walk you through the setup and show you how I turned raw database logs into a clean, highly-visible dashboard.
 
@@ -27,11 +27,11 @@ I recently implemented an auditing solution in SQL Server, that tracks database 
 
 To set up this project, you need the following:
 
-• SQL Server 2016 or later versions
+- SQL Server 2016 or later versions
 
-• AdventureWorks2022 as the sample database
+- AdventureWorks2022 as the sample database
 
-• Power BI Desktop for log analysis and visualization
+- Power BI Desktop for log analysis and visualization
 
 ## Auditing in SQL Server
 
