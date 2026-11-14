@@ -1,0 +1,38 @@
+---
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+
+type Props = {
+  project: CollectionEntry<"projects">;
+};
+
+const { project } = Astro.props;
+---
+
+<li class="overflow-hidden rounded-lg border border-black/15 dark:border-white/20">
+  <a
+    href={`/projects/${project.slug}`}
+    class="group flex flex-col transition-colors hover:bg-black/5 hover:text-black dark:hover:bg-white/5 dark:hover:text-white"
+  >
+    {project.data.cover && (
+      <Image
+        src={project.data.cover}
+        alt={project.data.title}
+        class="aspect-video w-full object-cover"
+      />
+    )}
+    <div class="flex flex-col gap-2 p-3">
+      <h2 class="font-semibold text-black dark:text-white">
+        {project.data.title}
+      </h2>
+      <p class="text-sm">{project.data.description}</p>
+      <ul class="flex flex-wrap gap-1.5 pt-1" aria-label="Technologies">
+        {project.data.tech.map((item) => (
+          <li class="rounded border border-black/10 px-1.5 py-0.5 text-xs dark:border-white/15">
+            {item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </a>
+</li>
