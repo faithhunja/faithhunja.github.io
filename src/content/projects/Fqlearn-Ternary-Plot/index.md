@@ -4,7 +4,6 @@ description: Python tool for plotting compositions, equilibrium lines, and three
 dateCompleted: 2024-05-29
 tech: [Python, Matplotlib, python-ternary, NumPy, SciPy]
 cover: ./solute_points.png
-repoURL: "https://github.com/osl-pocs/fqlearn/blob/main/src/fqlearn/ThreeComponent.py"
 draft: false
 ---
 

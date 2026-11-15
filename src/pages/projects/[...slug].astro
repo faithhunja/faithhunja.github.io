@@ -3,7 +3,6 @@ import { type CollectionEntry, getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import BackToPrev from "@components/BackToPrev.astro";
-import Link from "@components/Link.astro";
 
 export async function getStaticPaths() {
   const projects = (await getCollection("projects"))
@@ -30,23 +29,6 @@ const { Content } = await project.render();
       <h1 class="text-2xl font-semibold text-black dark:text-white">
         {project.data.title}
       </h1>
-      {(project.data.demoURL || project.data.repoURL) && (
-        <nav class="flex flex-wrap items-center gap-1" aria-label="Project links">
-          {project.data.demoURL && (
-            <Link href={project.data.demoURL} external>
-              demo
-            </Link>
-          )}
-          {project.data.demoURL && project.data.repoURL && (
-            <span aria-hidden="true">/</span>
-          )}
-          {project.data.repoURL && (
-            <Link href={project.data.repoURL} external>
-              repo
-            </Link>
-          )}
-        </nav>
-      )}
     </div>
     <article class="animate max-w-none">
       <Content />

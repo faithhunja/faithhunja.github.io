@@ -4,8 +4,6 @@ description: A comparison of ECCO sea surface height estimates with Puerto Rico 
 dateCompleted: 2024-06-20
 tech: [Python, xarray, pandas, NumPy, SciPy, Matplotlib]
 cover: ./maria_locations.png
-repoURL: "https://github.com/FranckPrts/CMA_2023_Project/tree/main/CISP%20Micropublication"
-demoURL: "https://www.youtube.com/watch?v=_mT-hI692f8"
 draft: false
 ---
 
@@ -41,6 +39,6 @@ The workflow downloads ECCO daily SSH data and tide-gauge observations, aligns t
 
 ### Links
 
-- [Demo](https://www.youtube.com/watch?v=_mT-hI692f8)
 - [Repo](https://github.com/FranckPrts/CMA_2023_Project/tree/main/CISP%20Micropublication)
 - [Blog](https://faithhunja.github.io/blog/2024-06-20-ecco-vs-tgs-affected-by-hurricane-maria/)
+- [Presentation](https://www.youtube.com/watch?v=_mT-hI692f8)

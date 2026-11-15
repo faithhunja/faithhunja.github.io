@@ -3,7 +3,6 @@ title: Database Auditing in Microsoft SQL Server and Monitoring in Power BI
 description: A draft SQL Server auditing solution with a Power BI dashboard for reviewing database activity
 dateCompleted: 2025-03-20
 tech: [Microsoft SQL Server, T-SQL, Power BI]
-repoURL: "https://github.com/faithhunja/SQL-Server-Audit-and-Monitoring-in-Power-BI"
 draft: true
 ---
 
