@@ -3,7 +3,7 @@ title: Flight telemetry data quality validation and ingestion pipeline
 description: A data pipeline that fetches live aircraft telemetry, orchestrated using GitHub Actions, with data-quality checks enforced using Great Expectations
 dateCompleted: 2026-07-10
 tech: [Python, GitHub Actions, pandas, Great Expectations]
-cover: ./workflow_diagram.png
+cover: ./workflow_run_success.png
 draft: false
 ---
 
@@ -13,6 +13,9 @@ This project is a self-orchestrated data pipeline that pulls live aircraft telem
 
 ![Workflow diagram](./workflow_diagram.png)
 *The workflow diagram*
+
+![Workflow run success](./workflow_run_success.png)
+*Validation success and 13 records ingested*
 
 ### What it does
 
