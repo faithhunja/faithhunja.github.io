@@ -19,9 +19,6 @@ This project compares sea surface height (SSH) data from the ECCO ocean reanalys
 ![Time series ECCO and UHSLC SSH comparison during Hurricane Maria (normalized, resampled)](./timeseries_TG_ECCO_during_Maria.png)
 *Time series ECCO and UHSLC SSH comparison during Hurricane Maria (normalized, resampled)*
 
-![Time series SSH rolling mean comparisons](./all_TGs_rolling_mean.png)
-*Time series SSH rolling mean comparisons*
-
 ### What it does
 
 - Compares ECCO sea surface height estimates with six Puerto Rico tide gauges
