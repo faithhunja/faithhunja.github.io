@@ -10,6 +10,7 @@ type Talk = {
   date: string;
   post?: string;
   article?: string;
+  schedule?: string;
   slides?: string;
   video?: string;
   code?: string;
@@ -21,6 +22,7 @@ const getTalkLinks = (talk: Talk) =>
   [
     { label: "post", href: talk.post },
     { label: "article", href: talk.article },
+    { label: "schedule", href: talk.schedule },
     { label: "slides", href: talk.slides },
     { label: "video", href: talk.video },
     { label: "code", href: talk.code },
@@ -46,9 +48,9 @@ const getTalkLinks = (talk: Talk) =>
                   <p class="!my-0">{talk.event}</p>
                   <p class="!my-0">{talk.date}</p>
                   {getTalkLinks(talk).length > 0 && (
-                    <p class="!my-0">
+                    <p class="!my-0 font-sans text-base text-black/50 dark:text-white/75">
                       {getTalkLinks(talk).flatMap(({ label, href }, index) => [
-                        index > 0 ? " • " : "",
+                        index > 0 ? " / " : "",
                         <Link href={href} external rel="noopener noreferrer">{label}</Link>,
                       ])}
                     </p>
