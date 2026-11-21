@@ -43,6 +43,11 @@ article {
   @apply prose-headings:text-black prose-headings:dark:text-white;
 }
 
+article :not(pre) > code::before,
+article :not(pre) > code::after {
+  content: none;
+}
+
 @layer utilities {
   article a {
     @apply font-sans text-current underline underline-offset-2;
