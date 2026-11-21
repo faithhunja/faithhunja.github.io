@@ -39,6 +39,4 @@ The workflow downloads ECCO daily SSH data and tide-gauge observations, aligns t
 
 ### Links
 
-- [Repo](https://github.com/FranckPrts/CMA_2023_Project/tree/main/CISP%20Micropublication)
-- [Blog](https://faithhunja.github.io/blog/2024-06-20-ecco-vs-tgs-affected-by-hurricane-maria/)
-- [Presentation](https://www.youtube.com/watch?v=_mT-hI692f8)
+<p class="font-sans text-black/50 dark:text-white/75"><a href="https://github.com/FranckPrts/CMA_2023_Project/tree/main/CISP%20Micropublication" class="text-black/50 dark:text-white/75 hover:text-black dark:hover:text-white">repo</a> / <a href="https://faithhunja.github.io/blog/2024-06-20-ecco-vs-tgs-affected-by-hurricane-maria/" class="text-black/50 dark:text-white/75 hover:text-black dark:hover:text-white">blog</a> / <a href="https://www.youtube.com/watch?v=_mT-hI692f8" class="text-black/50 dark:text-white/75 hover:text-black dark:hover:text-white">presentation</a></p>

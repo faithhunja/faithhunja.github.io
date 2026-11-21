@@ -43,4 +43,4 @@ A GitHub Actions workflow sets up the environment, fetches flight telemetry, and
 
 ### Links
 
-- [Repo](https://github.com/faithhunja/flight-data-quality-and-ingestion-pipeline)
+<p class="font-sans text-black/50 dark:text-white/75"><a href="https://github.com/faithhunja/flight-data-quality-and-ingestion-pipeline" class="text-black/50 dark:text-white/75 hover:text-black dark:hover:text-white">repo</a></p>

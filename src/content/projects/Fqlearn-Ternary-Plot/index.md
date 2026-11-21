@@ -35,5 +35,4 @@ The plotting workflow starts with normalized composition tuples and sorts them i
 
 ### Links
 
-- [Repo](https://github.com/osl-pocs/fqlearn/blob/main/src/fqlearn/ThreeComponent.py)
-- [Blog](https://opensciencelabs.org/blog/fqlearn-ternary-plot/)
+<p class="font-sans text-black/50 dark:text-white/75"><a href="https://github.com/osl-pocs/fqlearn/blob/main/src/fqlearn/ThreeComponent.py" class="text-black/50 dark:text-white/75 hover:text-black dark:hover:text-white">repo</a> / <a href="https://opensciencelabs.org/blog/fqlearn-ternary-plot/" class="text-black/50 dark:text-white/75 hover:text-black dark:hover:text-white">blog</a></p>
